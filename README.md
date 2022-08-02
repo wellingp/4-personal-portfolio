@@ -21,3 +21,6 @@ On GitHub: https://github.com/wellingp/4-personal-portfolio
 
 - [ ] Make self-illustration (content).
 - [ ] Take polaroid photos for the index (content).
+- [ ] Fill in page meta data.
+- [ ] Image dimensions.
+- [ ] Image alts.
