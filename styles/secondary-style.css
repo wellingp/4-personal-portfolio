@@ -117,13 +117,29 @@ main{
 }
 
 main div.col-md.border-right{
-   background-color: #E77730;
+   /* background-color: #E77730; */
    
 }
 
 main div.col-md{
-   background-color: #8A4915;
+   /* background-color: #8A4915; */
    
+}
+
+.brown{
+   background-color: #8A4915;
+}
+
+.yellow{
+   background-color: #edce64;
+}
+
+.orange{
+ background-color: #E77730;
+}
+
+.white{
+   background-color: white;
 }
 
 footer{

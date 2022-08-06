@@ -8,21 +8,45 @@
    <meta name="keywords" content="">
    <title>Document</title>
    <link rel="stylesheet" href="styles/main-style.css">
+   <link rel="stylesheet" href="styles/grid.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-   <header>
+   <header class="border-bottom">
       <div class="container">
-         <div class="row">
-            <div class="col-md">
+         <nav>
+            <div class="row">
+               <div class="col-md">
+                  <h1>Site Title</h1>
+               </div>
             </div>
-         </div>
+            <ul id="nav-ul">
+               <a href="index.html"><li>Home</li></a> ✿
+               <a href="about.html"><li>About</li></a> ✿
+               <a href="stack.html"><li>Stack</li></a> ✿
+               <a href="projects.html"><li>Projects</li></a> ✿
+               <a href="contact.html"><li>Contact</li></a>
+            </ul>
+         </nav>
       </div>
    </header>
 
    <main>
       <div class="container">
          <div class="row">
+            <div class="col-md border-right">
+               <img src="images/portrait-long-placeholder.jpg" alt="">
+            </div>
             <div class="col-md">
+               <h2>About</h2>
+
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis commodo ipsum, a blandit diam. Proin ornare placerat turpis, nec sodales ipsum feugiat a. Sed sodales, tortor at tincidunt convallis, eros sem tincidunt mi, vel dapibus dui nibh vel lorem. Pellentesque in lacus neque. Praesent pulvinar, neque et auctor sollicitudin, diam tellus imperdiet nisl, sed dapibus lacus lacus nec dolor. Phasellus elementum leo orci, eu auctor erat aliquet eget. Cras nec odio et risus fringilla facilisis quis sit amet lectus. Morbi ac diam ante. Sed eu iaculis orci, vitae eleifend mauris. Aliquam tincidunt, nisi sit amet feugiat sodales, libero elit mollis elit, at auctor nisi diam id elit. In auctor, metus ac varius placerat, metus eros condimentum velit, in sodales ipsum leo eu sem. Ut sagittis mi nec finibus aliquet.</p>
+
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis commodo ipsum, a blandit diam. Proin ornare placerat turpis, nec sodales ipsum feugiat a. Sed sodales, tortor at tincidunt convallis, eros sem tincidunt mi, vel dapibus dui nibh vel lorem. Pellentesque in lacus neque. Praesent pulvinar, neque et auctor sollicitudin, diam tellus imperdiet nisl, sed dapibus lacus lacus nec dolor. Phasellus elementum leo orci, eu auctor erat aliquet eget. Cras nec odio et risus fringilla facilisis quis sit amet lectus. Morbi ac diam ante. Sed eu iaculis orci, vitae eleifend mauris. Aliquam tincidunt, nisi sit amet feugiat sodales, libero elit mollis elit, at auctor nisi diam id elit. In auctor, metus ac varius placerat, metus eros condimentum velit, in sodales ipsum leo eu sem. Ut sagittis mi nec finibus aliquet.</p>
+
+               <a href="#">See Some Stuff</a>
             </div>
          </div>
       </div>
@@ -32,10 +56,19 @@
       <div class="container">
          <div class="row">
             <div class="col-md">
+               <a href="#">BOTTOM LINK</a>
+            </div>
+            <div class="col-md">
+               <a href="#">BOTTOM LINK</a>
+            </div>
+            <div class="col-md">
+               <a href="#">BOTTOM LINK</a>
             </div>
          </div>
       </div>
    </footer>
+
+   <p>Copyright &copy; 2022 Patti W.</p> <a href="conduct.html">Code of Conduct</a>
    
 </body>
 </html>
