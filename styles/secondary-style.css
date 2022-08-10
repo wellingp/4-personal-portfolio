@@ -34,6 +34,11 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
+header{
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
 header h1{
    font-family: 'Irish Grover', cursive;
    font-size: 5em;
@@ -42,6 +47,7 @@ header h1{
 }
 
 h1{
+   color: black;
 
 }
 
@@ -66,6 +72,8 @@ h6{
 }
 
 p{
+   padding-left: 2%;
+   padding-right: 2%;
 
 }
 
@@ -89,12 +97,13 @@ img.hover-link-image:hover{
 }
 
 ul{
-   list-style: none;
+   
    padding-left: 0;
 }
 
 li{
    padding-bottom: 2%;
+   list-style-position: inside;
 }
 
 #nav-ul ul{

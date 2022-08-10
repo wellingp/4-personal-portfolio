@@ -34,6 +34,11 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
+header{
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
 header h1{
    font-family: 'Irish Grover', cursive;
    font-size: 5em;
@@ -42,10 +47,11 @@ header h1{
 }
 
 h1{
-
+   color: black;
 }
 
 h2{
+   color: burlywood;
 
 }
 
@@ -80,6 +86,15 @@ a{
    text-decoration: none;
 }
 
+blockquote{
+   font-size: 2em;
+   font-style: italic;
+   background-color: rgba(222, 184, 135, 0.51);
+   margin: 0;
+   margin-top: 5%;
+   color: #E77730;
+}
+
 img.hover-link-image{
    opacity: 70%;
 }
@@ -110,14 +125,14 @@ li{
 }
 
 header{
-   background-color: #FDF8E6;
+   background-color: #fdf8e6bb;
 }
 
 main{
 }
 
 main div.col-md.border-right{
-   background-color: #E77730;
+   background-color: burlywood;
    
 }
 
@@ -126,10 +141,17 @@ main div.col-md{
    
 }
 
+.black{
+   background-color: #000;
+}
+
 footer{
-   background-color: black;
+   background-color: #fdf8e6b3;
+   padding-top: 2%;
    padding-bottom: 2%;
-   color: blanchedalmond;
+   color: burlywood;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
 }
 
 @media (min-width: 576px) {
