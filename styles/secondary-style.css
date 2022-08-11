@@ -3,11 +3,11 @@ body{
    text-align: center;
    font-size: 1rem;  
    align-items: center;
-   background-color: burlywood;
    background-image: url('../images/wallpaper1.jpg');
+   background-color: rgba(186, 81, 52);
    background-attachment: fixed;
    margin: 0 auto 2% auto;
-   width: 80%;
+   width: 90%;
    font-family: 'Roboto Slab', serif;
 }
 
@@ -34,13 +34,8 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
-header{
-   border-top-left-radius: 10px;
-   border-top-right-radius: 10px;
-}
-
 header h1{
-   font-family: 'Irish Grover', cursive;
+   font-family: 'Spicy Rice', cursive;
    font-size: 5em;
    margin-top: 2%;
    margin-bottom: 2%;
@@ -119,7 +114,9 @@ li{
 }
 
 header{
-   background-color: #FDF8E6;
+   background-color: #fdf8e6bb;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
 }
 
 main{
@@ -152,9 +149,12 @@ main div.col-md{
 }
 
 footer{
-   background-color: black;
+   background-color: #fdf8e6b3;
+   padding-top: 2%;
    padding-bottom: 2%;
-   color: blanchedalmond;
+   color: burlywood;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
 }
 
 @media (min-width: 576px) {

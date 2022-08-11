@@ -3,45 +3,40 @@ body{
    text-align: center;
    font-size: 1rem;  
    align-items: center;
-   background-color: burlywood;
-   background-image: url('../images/wallpaper1.jpg');
+   background-image: url(../images/20371085.jpg);
    background-attachment: fixed;
-   margin: 0 auto 2% auto;
-   width: 80%;
+   margin: 0 auto 0 auto;
+   width: 100%;
    font-family: 'Roboto Slab', serif;
+   color: rgb(84, 61, 45);
 }
 
 div.container{
-   width: 100%;
+   width: 80%;
 }
 
 div.col-md{
    padding-left: 0;
    padding-right: 0;
-   
+   width: 100%;
 }
 
 div.col-md.border-right{
    width: 100%;
+   border-top-left-radius: 30px;
 }
 
 div.row{
    width: 100%;
-   
 }
 
 h1, h2, h3, h4, h5, h6{
 
 }
 
-header{
-   border-top-left-radius: 10px;
-   border-top-right-radius: 10px;
-}
-
 header h1{
-   font-family: 'Irish Grover', cursive;
-   font-size: 5em;
+   font-family: 'Spicy Rice', cursive;
+   font-size: 2em;
    margin-top: 2%;
    margin-bottom: 2%;
 }
@@ -50,9 +45,12 @@ h1{
    color: black;
 }
 
+header h2{
+   font-size: 0.9em;
+}
+
 h2{
    color: burlywood;
-
 }
 
 h3{
@@ -71,8 +69,8 @@ h6{
 
 }
 
-p{
-
+main p{
+   padding: 3% 10%;
 }
 
 img{
@@ -84,15 +82,18 @@ img{
 
 a{
    text-decoration: none;
+   color: brown;
+   font-weight: 600;
 }
 
 blockquote{
    font-size: 2em;
    font-style: italic;
-   background-color: rgba(222, 184, 135, 0.51);
-   margin: 0;
-   margin-top: 5%;
-   color: #E77730;
+   font-weight: 300;
+   color: #f0ded4;
+   width: 100%;
+   margin: 10% auto;
+   height: auto;
 }
 
 img.hover-link-image{
@@ -101,6 +102,10 @@ img.hover-link-image{
 
 img.hover-link-image:hover{
    opacity: 100%;
+}
+
+img.hover-link-image{
+   display: block;
 }
 
 ul{
@@ -112,12 +117,22 @@ li{
    padding-bottom: 2%;
 }
 
+nav{
+   
+}
+
 #nav-ul ul{
    list-style: none;
 }
 
 #nav-ul li{
    display: inline;
+   font-size: 1.1em;
+   padding-left: 2%;
+}
+
+#nav-ul li:hover, footer a:hover{
+   color: rgb(203, 167, 167);
 }
 
 .border-bottom{
@@ -125,33 +140,39 @@ li{
 }
 
 header{
-   background-color: #fdf8e6bb;
+   background-color: rgb(253, 248, 230);
+   position: sticky;
+   top: 0;
+   width: 100%;
+   z-index: 1;
+}
+
+header.border-bottom{
+   width: 100%;
+   height: auto;
+}
+
+header div.row{
+   width: 100%;
+   align-items: center;
 }
 
 main{
 }
 
 main div.col-md.border-right{
-   background-color: burlywood;
    
 }
 
 main div.col-md{
-   background-color: #8A4915;
-   
-}
-
-.black{
-   background-color: #000;
+   background-color: rgba(222, 184, 135, 0.572);
 }
 
 footer{
-   background-color: #fdf8e6b3;
-   padding-top: 2%;
+   background-color: rgb(253, 248, 230);
+   padding-top: 1%;
    padding-bottom: 2%;
    color: burlywood;
-   border-bottom-left-radius: 10px;
-   border-bottom-right-radius: 10px;
 }
 
 @media (min-width: 576px) {
