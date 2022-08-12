@@ -3,7 +3,7 @@ body{
    text-align: center;
    font-size: 1rem;  
    align-items: center;
-   background-image: url(../images/20371085.jpg);
+   background-image: url(../images/flowers.jpg);
    background-attachment: fixed;
    margin: 0 auto 0 auto;
    width: 100%;
@@ -71,6 +71,12 @@ h6{
 
 main p{
    padding: 3% 10%;
+   font-size: 1.5em;
+   font-weight: 300;
+}
+
+.main-spacing{
+   padding-top: 10%;
 }
 
 img{
@@ -82,18 +88,25 @@ img{
 
 a{
    text-decoration: none;
-   color: brown;
+   color: rgb(210, 166, 218);
    font-weight: 600;
 }
 
-blockquote{
+i{
+   font-family: fontawesome;
+   font-style: normal;
+}
+
+em{
    font-size: 2em;
    font-style: italic;
+   color: rgb(210, 166, 218);
+   display: block;
+}
+
+strong{
+   color: rgb(236, 214, 240);
    font-weight: 300;
-   color: #f0ded4;
-   width: 100%;
-   margin: 10% auto;
-   height: auto;
 }
 
 img.hover-link-image{
@@ -132,15 +145,29 @@ nav{
 }
 
 #nav-ul li:hover, footer a:hover{
-   color: rgb(203, 167, 167);
+   color: rgb(236, 214, 240);
+}
+
+.active-nav{
+   color: black;
 }
 
 .border-bottom{
    border-bottom: solid 1em black;
 }
 
+ul.inline li{
+   display: inline;
+   padding-right: 2%;
+}
+
+ul.inline a{
+   color: black;
+   font-size: 2em;
+}
+
 header{
-   background-color: rgb(253, 248, 230);
+   background-color: white;
    position: sticky;
    top: 0;
    width: 100%;
@@ -165,14 +192,13 @@ main div.col-md.border-right{
 }
 
 main div.col-md{
-   background-color: rgba(222, 184, 135, 0.572);
+   background-color: rgba(245, 245, 245, 0.96);
 }
 
 footer{
-   background-color: rgb(253, 248, 230);
+   background-color: rgba(255, 255, 255, 0.95);
    padding-top: 1%;
    padding-bottom: 2%;
-   color: burlywood;
 }
 
 @media (min-width: 576px) {

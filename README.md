@@ -24,3 +24,4 @@ On GitHub: https://github.com/wellingp/4-personal-portfolio
 - [ ] Fill in page meta data.
 - [ ] Image dimensions.
 - [ ] Image alts.
+- [ ] Change active navs.
