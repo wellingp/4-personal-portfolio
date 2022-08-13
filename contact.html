@@ -7,7 +7,7 @@
       <meta name="description" content="">
       <meta name="keywords" content="">
       <title>Document</title>
-      <link rel="stylesheet" href="styles/secondary-style.css">
+      <link rel="stylesheet" href="styles/main-style.css">
       <link rel="stylesheet" href="styles/grid.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,16 +19,16 @@
             <nav>
                <div class="row">
                   <div class="col-md-5">
-                     <a href="index.html"><h1>✿ The P Chord ✿</h1></a>
+                     <a href="index.html"><h1>✿ The <span id="logo-p">P</span> Chord ✿</h1></a>
                   </div>
 
                   <div class="col-md-7">
                      <ul id="nav-ul">
-                        <a href="index.html"><li class="active-nav">Home</li></a>
+                        <a href="index.html"><li>Home</li></a>
                         <a href="about.html"><li>About</li></a>
                         <a href="stack.html"><li>Stack</li></a>
                         <a href="projects.html"><li>Projects</li></a>
-                        <a href="contact.html"><li>Contact</li></a>
+                        <a href="contact.html"><li class="active-nav">Contact</li></a>
                      </ul>
                   </div>
                </div>
@@ -38,17 +38,20 @@
 
       <main>
          <div class="container">
-            <div class="row orange border-bottom">
+            <div class="row border-bottom">
                <div class="col-md">
                   <h2>Contact</h2>
                </div>
             </div>
 
-            <div class="row white">
+            <div class="row">
                <div class="col-md">
                   <p>Praesent pulvinar, neque et auctor sollicitudin, diam tellus imperdiet nisl, sed dapibus lacus lacus nec dolor. Phasellus elementum leo orci, eu auctor erat aliquet eget. Cras nec odio et risus fringilla facilisis quis sit amet lectus. Morbi ac diam ante. Sed eu iaculis orci, vitae eleifend mauris.</p>
 
-                  <form action="post">
+                  <form method="" action="">
+                     First name: <input type = "text" name = "first_name" />
+                     <br>
+                     Last name: <input type = "text" name = "last_name" />
                      
                   </form>
                </div>
@@ -60,22 +63,8 @@
       </main>
 
       <footer>
-         <div class="container">
-            <div class="row">
-               <div class="col-md">
-                  <a href="#">BOTTOM LINK</a>
-               </div>
-               <div class="col-md">
-                  <a href="#">BOTTOM LINK</a>
-               </div>
-               <div class="col-md">
-                  <a href="#">BOTTOM LINK</a>
-               </div>
-            </div>
-         </div>
+         <p>Copyright &copy; 2022 Patti W.</p> <a href="conduct.html">Code of Conduct</a>
       </footer>
-
-      <p>Copyright &copy; 2022 Patti W.</p> <a href="conduct.html">Code of Conduct</a>
       
    </body>
 </html>

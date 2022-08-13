@@ -25,3 +25,4 @@ On GitHub: https://github.com/wellingp/4-personal-portfolio
 - [ ] Image dimensions.
 - [ ] Image alts.
 - [ ] Change active navs.
+- [ ] Grey flowers?

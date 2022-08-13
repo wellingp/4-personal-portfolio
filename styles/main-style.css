@@ -92,6 +92,10 @@ a{
    font-weight: 600;
 }
 
+main a{
+   margin-bottom: 2%;
+}
+
 i{
    font-family: fontawesome;
    font-style: normal;
@@ -107,6 +111,12 @@ em{
 strong{
    color: rgb(236, 214, 240);
    font-weight: 300;
+}
+
+#logo-p{
+   color: rgb(210, 166, 218);
+   text-shadow: #000 0px 1px 2px;
+   -webkit-font-smoothing: antialiased;
 }
 
 img.hover-link-image{
