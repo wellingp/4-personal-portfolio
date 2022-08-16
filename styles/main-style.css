@@ -8,7 +8,7 @@ body{
    margin: 0 auto 0 auto;
    width: 100%;
    font-family: 'Roboto Slab', serif;
-   color: rgb(84, 61, 45);
+   color: rgb(79, 79, 79);
 }
 
 div.container{
@@ -16,6 +16,12 @@ div.container{
 }
 
 div.col-md{
+   padding-left: 0;
+   padding-right: 0;
+   width: 100%;
+}
+
+div.col-lg{
    padding-left: 0;
    padding-right: 0;
    width: 100%;
@@ -30,7 +36,9 @@ div.row{
    width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6{
+h2, h3, h4, h5, h6{
+   padding-bottom: 3%;
+   color: rgb(141, 115, 151);
 
 }
 
@@ -50,7 +58,6 @@ header h2{
 }
 
 h2{
-   color: burlywood;
 }
 
 h3{
@@ -70,13 +77,14 @@ h6{
 }
 
 main p{
-   padding: 3% 10%;
-   font-size: 1.5em;
+   font-size: 1em;
    font-weight: 300;
+   margin-left: 5%;
+   margin-right: 5%;
 }
 
 .main-spacing{
-   padding-top: 10%;
+   padding-top: 6%;
 }
 
 img{
@@ -84,6 +92,15 @@ img{
    height: auto;
    padding: 0;
    margin: 0;
+   display: block;
+}
+
+img.hover-link-image{
+   opacity: 80%;
+}
+
+img.hover-link-image:hover{
+   opacity: 100%;
 }
 
 a{
@@ -113,31 +130,41 @@ strong{
    font-weight: 300;
 }
 
+.bold{
+   font-weight: 600;
+}
+
+.flower{
+   animation-name: spin;
+   animation-duration: 5000ms;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+
 #logo-p{
    color: rgb(210, 166, 218);
-   text-shadow: #000 0px 1px 2px;
-   -webkit-font-smoothing: antialiased;
+   
+   /* text-shadow: #000 0px 1px 1px;
+   -webkit-font-smoothing: antialiased; */
 }
 
-img.hover-link-image{
-   opacity: 70%;
+@keyframes spin {
+   from {
+      transform:rotate(0deg);
 }
-
-img.hover-link-image:hover{
-   opacity: 100%;
-}
-
-img.hover-link-image{
-   display: block;
+   to {
+      transform:rotate(360deg);
+   }
 }
 
 ul{
-   list-style: none;
-   padding-left: 0;
+   font-weight: 300;
+   font-size: 1.1;
+   list-style-position: inside;
+   list-style-type: '- ';
 }
 
 li{
-   padding-bottom: 2%;
 }
 
 nav{
@@ -158,12 +185,12 @@ nav{
    color: rgb(236, 214, 240);
 }
 
-.active-nav{
-   color: black;
+#nav-ul li:visited, footer a:visited{
+   color: rgb(186, 169, 189);
 }
 
-.border-bottom{
-   border-bottom: solid 1em black;
+.active-nav{
+   color: black;
 }
 
 ul.inline li{
@@ -174,6 +201,10 @@ ul.inline li{
 ul.inline a{
    color: black;
    font-size: 2em;
+}
+
+.border-bottom{
+   border-bottom: solid 1em black;
 }
 
 header{
@@ -203,6 +234,10 @@ main div.col-md.border-right{
 
 main div.col-md{
    background-color: rgba(245, 245, 245, 0.96);
+}
+
+div.col-md.reveal{
+   background-color: rgba(245, 245, 245, 0.6);
 }
 
 footer{
