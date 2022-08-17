@@ -35,6 +35,10 @@ div.row{
    width: 100%;
 }
 
+div.row.vertical-align{
+   align-items: center;
+}
+
 h2, h3, h4, h5, h6{
    padding-bottom: 3%;
    color: rgb(118, 101, 118);
@@ -46,6 +50,7 @@ header h1{
    font-size: 2em;
    margin-top: 2%;
    margin-bottom: 2%;
+   display: inline-block;
 }
 
 h1{
@@ -159,13 +164,8 @@ blockquote strong{
    animation-duration: 5000ms;
    animation-iteration-count: infinite;
    animation-timing-function: linear;
-}
-
-#logo-p{
-   color: rgb(210, 166, 218);
-   
-   /* text-shadow: #000 0px 1px 1px;
-   -webkit-font-smoothing: antialiased; */
+   width: 2em;
+   display: inline;
 }
 
 @keyframes spin {
@@ -175,6 +175,13 @@ blockquote strong{
    to {
       transform:rotate(360deg);
    }
+}
+
+#logo-p{
+   color: rgb(210, 166, 218);
+   
+   /* text-shadow: #000 0px 1px 1px;
+   -webkit-font-smoothing: antialiased; */
 }
 
 ul{
@@ -261,7 +268,13 @@ main div.col-md{
 }
 
 div.col-md.reveal{
-   background-color: rgba(245, 245, 245, 0.6);
+   background-color: rgba(245, 245, 245, 0.8);
+   padding-top: 5%;
+   padding-bottom: 5%;
+}
+
+div.col-md.reveal ul{
+   padding-left: 0;
 }
 
 footer{
