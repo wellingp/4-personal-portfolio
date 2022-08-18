@@ -1,14 +1,14 @@
 body{
    justify-content: center;
    text-align: center;
-   font-size: 1rem;  
+   font-size: 1.2rem;  
    align-items: center;
-   background-image: url(../images/flowers.jpg);
+   background-color: rgb(31, 31, 31);
    background-attachment: fixed;
    margin: 0 auto 0 auto;
    width: 100%;
    font-family: 'Roboto Slab', serif;
-   color: rgb(79, 79, 79);
+   color: rgba(255, 255, 255, 0.8);
 }
 
 div.container{
@@ -21,7 +21,7 @@ div.col-md{
    width: 100%;
 }
 
-div.col-lg{
+div.col-xl{
    padding-left: 0;
    padding-right: 0;
    width: 100%;
@@ -33,6 +33,7 @@ div.col-md.border-right{
 
 div.row{
    width: 100%;
+   background-color: rgba(255, 255, 255, 0.05);
 }
 
 div.row.vertical-align{
@@ -41,13 +42,14 @@ div.row.vertical-align{
 
 h2, h3, h4, h5, h6{
    padding-bottom: 3%;
-   color: rgb(118, 101, 118);
-
+   color: rgb(0, 0, 0);
+   font-weight: bold;
 }
 
 header h1{
    font-family: 'Spicy Rice', cursive;
-   font-size: 2em;
+   font-weight: 600;
+   font-size: 1.6em;
    margin-top: 2%;
    margin-bottom: 2%;
    display: inline-block;
@@ -55,7 +57,7 @@ header h1{
 
 h1{
    font-size: 1.6em;
-   color: black;
+   color: fff;
 }
 
 header h2{
@@ -67,7 +69,7 @@ h2{
 }
 
 h3{
-   font-size: 1.2em;
+   font-size: 1.1em;
 
 }
 
@@ -94,6 +96,10 @@ main p{
    padding-top: 6%;
 }
 
+p.main-spacing{
+   padding-top: 10%;
+}
+
 img{
    width: 100%;
    height: auto;
@@ -116,7 +122,13 @@ a{
    font-weight: 600;
 }
 
-main a{
+main a, footer a{
+   color: rgb(163, 71, 180);
+   margin-bottom: 2%;
+}
+
+main a:visited, footer a:visited{
+   color: rgb(101, 74, 105);
    margin-bottom: 2%;
 }
 
@@ -137,7 +149,7 @@ em{
 }
 
 strong{
-   color: rgb(149, 130, 149);
+   color: rgb(117, 104, 89);
    font-weight: 600;
 }
 
@@ -148,24 +160,19 @@ strong{
 blockquote{
    font-size: 1.2em;
    font-style: italic;
-   font-weight: 300;
-   background-color: #fff;
+   font-weight: 500;
+   color: white;
+   background-color: rgba(255, 255, 255, 0.1);
    border-radius: 10px;
    padding: 2%;
-   margin: 1%;
 }
 
-blockquote strong{
-   font-weight: 300;
+blockquote i{
+   color: rgb(0, 0, 0);
 }
 
-.flower{
-   animation-name: spin;
-   animation-duration: 5000ms;
-   animation-iteration-count: infinite;
-   animation-timing-function: linear;
-   width: 2em;
-   display: inline;
+blockquote strong, .reveal strong{
+   color: rgb(0, 0, 0);
 }
 
 @keyframes spin {
@@ -178,17 +185,18 @@ blockquote strong{
 }
 
 #logo-p{
-   color: rgb(210, 166, 218);
-   
-   /* text-shadow: #000 0px 1px 1px;
-   -webkit-font-smoothing: antialiased; */
+   color: black;
+}
+
+.logo-flower{
+   /* color: rgb(236, 214, 240); */
 }
 
 ul{
    font-weight: 300;
    font-size: 1.1;
    list-style-position: inside;
-   list-style-type: '- ';
+   list-style-type: none;
 }
 
 li{
@@ -208,12 +216,12 @@ nav{
    padding-left: 2%;
 }
 
-#nav-ul li:hover, footer a:hover{
+#nav-ul li:hover{
    color: rgb(236, 214, 240);
 }
 
-#nav-ul li:visited, footer a:visited{
-   color: rgb(186, 169, 189);
+#nav-ul li:visited{
+   color: rgb(114, 100, 117);
 }
 
 .active-nav{
@@ -222,6 +230,7 @@ nav{
 
 ul.inline.main-spacing{
    padding-right: 9%;
+   padding-top: 0;
 }
 
 ul.inline li{
@@ -257,6 +266,7 @@ header div.row{
 }
 
 main{
+   
 }
 
 main div.col-md.border-right{
@@ -264,34 +274,68 @@ main div.col-md.border-right{
 }
 
 main div.col-md{
-   background-color: rgba(245, 245, 245, 0.96);
+   
 }
 
-div.col-md.reveal{
-   background-color: rgba(245, 245, 245, 0.8);
-   padding-top: 5%;
-   padding-bottom: 5%;
+div.col-md.reveal.col-md{
+   font-size: 1.2em;
+   font-style: italic;
+   font-weight: 500;
+   
+   border-radius: 10px;
+   padding: 2%;
+   margin-left: 2%;
+   margin-right: 2%;
+   
+}
+
+div.row.vertical-align{
+   background-color: rgba(255, 255, 255, 0.1);
+}
+
+div.row.vertical-align{
 }
 
 div.col-md.reveal ul{
    padding-left: 0;
 }
 
+#title-col{
+   background-image: url(../images/banner.jpg);
+}
+
 footer{
    background-color: rgba(255, 255, 255, 0.95);
+   color: black;
    padding-top: 1%;
    padding-bottom: 2%;
 }
 
+/*sm*/
 @media (min-width: 576px) {
    .border-right{
       border-right: solid 0px black;
    }
-   
 }
 
+/*md*/
 @media (min-width: 768px) {
    .border-right{
       border-right: solid 1em black;
    }
 }
+
+/*lg*/
+@media (min-width: 992px) {
+   .border-right-lg{
+      border-right: solid 0em black;
+   }
+}
+
+/*xl*/
+@media (min-width: 1200px) {
+   .border-right-lg{
+      border-right: solid 1em black;
+   }
+}
+
