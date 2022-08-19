@@ -40,19 +40,21 @@ div.row.vertical-align{
    align-items: center;
 }
 
-h2, h3, h4, h5, h6{
+h3, h4, h5, h6{
    padding-bottom: 3%;
-   color: rgb(0, 0, 0);
    font-weight: bold;
+   color: black;
+
 }
 
 header h1{
    font-family: 'Spicy Rice', cursive;
    font-weight: 600;
-   font-size: 1.6em;
+   font-size: 1.5em;
    margin-top: 2%;
    margin-bottom: 2%;
    display: inline-block;
+   color: rgba(237, 81, 206, 0.785);
 }
 
 h1{
@@ -62,10 +64,14 @@ h1{
 
 header h2{
    font-size: 1.4em;
+   
 }
 
 h2{
-   font-size: 1.4em;
+   font-size: 3em;
+   color: rgba(255, 255, 255, 0.7);
+   padding-bottom: 3%;
+   font-weight: bold;
 }
 
 h3{
@@ -118,29 +124,30 @@ img.hover-link-image:hover{
 
 a{
    text-decoration: none;
-   color: rgb(210, 166, 218);
+   color: rgb(178, 109, 159);
    font-weight: 600;
 }
 
 main a, footer a{
-   color: rgb(163, 71, 180);
+   color: rgb(196, 203, 093);
    margin-bottom: 2%;
 }
 
 main a:visited, footer a:visited{
-   color: rgb(101, 74, 105);
+   color: rgb(134, 138, 070);
    margin-bottom: 2%;
 }
 
 i{
    font-family: fontawesome;
    font-style: normal;
+   color: rgba(255, 255, 255, 0.8);
 }
 
 .main-em{
    font-size: 2em;
    font-style: italic;
-   color: rgb(210, 166, 218);
+   color: rgb(156, 207, 101);
    display: block;
 }
 
@@ -149,7 +156,7 @@ em{
 }
 
 strong{
-   color: rgb(117, 104, 89);
+   color: rgb(156, 207, 101);
    font-weight: 600;
 }
 
@@ -171,9 +178,6 @@ blockquote i{
    color: rgb(0, 0, 0);
 }
 
-blockquote strong, .reveal strong{
-   color: rgb(0, 0, 0);
-}
 
 @keyframes spin {
    from {
@@ -217,7 +221,7 @@ nav{
 }
 
 #nav-ul li:hover{
-   color: rgb(236, 214, 240);
+   color: rgb(227, 227, 227);
 }
 
 #nav-ul li:visited{
@@ -225,7 +229,7 @@ nav{
 }
 
 .active-nav{
-   color: black;
+   color: rgb(156, 207, 101);
 }
 
 ul.inline.main-spacing{
@@ -301,7 +305,8 @@ div.col-md.reveal ul{
 }
 
 #title-col{
-   background-image: url(../images/banner.jpg);
+   background-image: url(../images/banner.png);
+   background-attachment: fixed;
 }
 
 footer{

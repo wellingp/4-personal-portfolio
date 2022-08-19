@@ -19,16 +19,16 @@
             <nav>
                <div class="row">
                   <div class="col-md-5">
-                     <a href="index.html"><h1> The <span id="logo-p">P</span> Ch✿rd</h1></a>
+                     <a href="index.html"><h1>The <span id="logo-p">P</span> Chord</span></h1></a>
                   </div>
 
                   <div class="col-md-7">
                      <ul id="nav-ul">
                         <a href="index.html"><li>Home</li></a>
                         <a href="about.html"><li>About</li></a>
-                        <a href="stack.html"><li>Stack</li></a>
+                        <a href="stack.html"><li class="active-nav">Stack</li></a>
                         <a href="projects.html"><li>Projects</li></a>
-                        <a href="contact.html"><li class="active-nav">Contact</li></a>
+                        <a href="contact.html"><li>Contact</li></a>
                      </ul>
                   </div>
                </div>
@@ -36,29 +36,37 @@
          </div>
       </header>
 
-      <main>
+      <!--FIX SO THESE RESIZE PROPERLY-->
+
+      <main class="border-bottom">
          <div class="container">
             <div class="row border-bottom">
-               <div class="col-md">
+               <div class="col-md" id="title-col">
                   <h2>Contact</h2>
                </div>
             </div>
 
             <div class="row">
                <div class="col-md">
-                  <p>Praesent pulvinar, neque et auctor sollicitudin, diam tellus imperdiet nisl, sed dapibus lacus lacus nec dolor. Phasellus elementum leo orci, eu auctor erat aliquet eget. Cras nec odio et risus fringilla facilisis quis sit amet lectus. Morbi ac diam ante. Sed eu iaculis orci, vitae eleifend mauris.</p>
+                  <form action="" method="post">
+                     <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" value="John"><br />
+                     <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value="Doe"><br />
+                     <label for="email">Last name:</label><br>
+                        <input type="text" id="email" name="lname" value="Doe@gmail.com"><br />
 
-                  <form method="" action="">
-                     First name: <input type = "text" name = "first_name" />
-                     <br>
-                     Last name: <input type = "text" name = "last_name" />
-                     
+                     <input type="submit" value="Submit">   
                   </form>
+
                </div>
+
             </div>
 
-            
-            
+
+
+
+
          </div>
       </main>
 
