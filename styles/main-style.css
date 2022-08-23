@@ -124,10 +124,82 @@ img.hover-link-image:hover{
    opacity: 100%;
 }
 
+img.stack-icon{
+   width: 15%;
+   height: auto;
+   margin: 0 auto;
+   display: block;
+}
+
 a{
    text-decoration: none;
    color: rgb(178, 109, 159);
    font-weight: 600;
+}
+
+.index-button{
+   padding: 30% 20%;
+   font-weight: bold;
+   font-size: 3em;
+   color: rgb(255, 255, 255);
+   text-shadow: 2px 2px 5px black;
+   opacity: 60%;
+   font-family: 'Londrina Outline', cursive;
+}
+
+.index-button:hover{
+   opacity: 100%;
+   font-weight: bold;
+}
+
+#about-button{
+   background-image: url('../images/indexbutton1.jpg');
+   background-size: cover;
+}
+
+#stack-button{
+   background-image: url('../images/indexbutton2.jpg');
+   background-size: cover;
+}
+
+#projects-button{
+   background-image: url('../images/indexbutton3.jpg');
+   background-size: cover;
+}
+
+#contact-button{
+   background-image: url('../images/indexbutton4.jpg');
+   background-size: cover;
+}
+
+.stack-box{
+   padding: 12% 1%;
+   font-size: 1em;
+   background-size: cover;
+   font-family: 'Londrina Outline', cursive;
+}
+
+#education-box{
+   background-image: url('../images/stack-education2.png');
+}
+
+#frontend-box{
+   background-image: url('../images/stack-front-end2.png');
+}
+
+#backend-box{
+   background-image: url('../images/stack-back-end2.png');
+}
+
+#other-box{
+   background-image: url('../images/stack-other2.png');
+}
+
+.stack-box h3{
+   font-family: 'Londrina Outline', cursive;
+   color: black;
+   text-shadow: 2px 2px 5px white;
+   font-weight: bold;
 }
 
 main a, footer a{
@@ -144,6 +216,13 @@ i{
    font-family: fontawesome;
    font-style: normal;
    color: rgba(255, 255, 255, 0.8);
+}
+
+.fa-brands:hover, .fa-solid:hover{
+   color: rgb(156, 207, 101);
+   font-weight: 800;
+   font-size: 1.1em;
+
 }
 
 .main-em{
@@ -209,6 +288,11 @@ nav{
 
 #nav-ul ul{
    list-style: none;
+   padding-left: 0;
+}
+
+ul#nav-ul{
+   padding-left: 0;
 }
 
 #nav-ul li{
@@ -230,6 +314,23 @@ nav{
    color: rgb(156, 207, 101);
 }
 
+ul#footer-ul{
+   margin-top: 3%;
+
+}
+
+#footer-ul li{
+   display: inline;
+   padding-right:2%;
+   color: rgb(22, 22, 22);
+   font-weight: 300;
+   font-size: 0.9em;
+}
+
+#footer-ul li:hover{
+   color: rgb(144, 144, 144);
+}
+
 ul.inline.main-spacing{
    padding-right: 9%;
    padding-top: 0;
@@ -243,6 +344,12 @@ ul.inline li{
 ul.inline a{
    color: black;
    font-size: 2em;
+}
+
+.list-style-dash li{
+   list-style-type: '- ';
+   padding: 1%;
+   font-size: 0.9em;
 }
 
 .border-bottom{
@@ -314,6 +421,60 @@ footer{
    color: black;
    padding-top: 1%;
    padding-bottom: 2%;
+}
+
+footer p{
+   font-size: 0.8em;
+}
+
+/*FORM*/
+
+form{
+   margin: 5% auto;
+   padding: 5%;
+   background-color: rgb(22, 22, 22);
+   border-radius: 10px;
+   width: 80%;
+}
+
+input, textarea{
+   margin: 4%;
+   padding: 2%;
+   width: 80%;
+   border-radius: 10px;
+   color: gray;
+   font-family: 'Quicksand', sans-serif;
+}
+
+textarea{
+   text-align: center;
+}
+
+label{
+   font-size: 0;
+}
+
+button#submit{
+   margin: 4%;
+   padding: 2%;
+   width: 80%;
+   border-radius: 10px;
+   border: none;
+   background-color: rgb(178, 109, 159);
+   color: white;
+   font-size: 1.2em;
+   font-weight: 800;
+   font-family: 'Cutive Mono', monospace;
+}
+
+button#submit:hover{
+   background-color: rgb(156, 207, 101);
+   color: rgb(34, 34, 34);
+   font-weight: 800;
+}
+
+input#fname, input#lname, input#email, input#message-box{
+   text-align: center;
 }
 
 /*xsm*/

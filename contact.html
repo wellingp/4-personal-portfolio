@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+      <script src="https://kit.fontawesome.com/afe1a8b538.js" crossorigin="anonymous"></script>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="author" content="Patti W">
@@ -26,9 +27,9 @@
                      <ul id="nav-ul">
                         <a href="index.html"><li>Home</li></a>
                         <a href="about.html"><li>About</li></a>
-                        <a href="stack.html"><li class="active-nav">Stack</li></a>
+                        <a href="stack.html"><li>Stack</li></a>
                         <a href="projects.html"><li>Projects</li></a>
-                        <a href="contact.html"><li>Contact</li></a>
+                        <a href="contact.html"><li class="active-nav">Contact</li></a>
                      </ul>
                   </div>
                </div>
@@ -47,25 +48,43 @@
             </div>
 
             <div class="row">
-               <div class="col-md">
+               <div class="col-lg border-right-lg">
+                  <img src="images/contact.jpg" alt="">
+                  <p>Reach me on social media:</p>
+                  <ul class="inline">
+                     <a href="" title="LinkedIn"><li><i class="fa-brands fa-linkedin-in"></i></li></a>
+                     <a href="" title="GitHub"><li><i class="fa-brands fa-github"></i></li></a>
+                     <a href="" title="Replit"><li><i class="fa-solid fa-circle-notch"></i></li></a>
+                     <a href="" title="Email"><li><i class="fa-solid fa-envelope"></i></li></a>
+                  </ul>
+               </div>
+               <div class="col-lg">
+                  <h3>Message</h3>
+                  <p>Call me! I promise I'll call you back.</p>
                   <form action="" method="post">
-                     <label for="fname">First name:</label><br>
-                        <input type="text" id="fname" name="fname" value="John"><br />
-                     <label for="lname">Last name:</label><br>
-                        <input type="text" id="lname" name="lname" value="Doe"><br />
-                     <label for="email">Last name:</label><br>
-                        <input type="text" id="email" name="lname" value="Doe@gmail.com"><br />
 
-                     <input type="submit" value="Submit">   
+                     <!-- Input FIRST NAME -->
+                     <label for="fname">First name:</label>
+                     <input type="text" id="fname" name="fname" value="First Name"><br />
+
+                     <!-- Input LAST NAME -->
+                     <label for="lname">Last name:</label>
+                     <input type="text" id="lname" name="lname" value="Last Name"><br />
+
+                     <!-- Input EMAIL -->
+                     <label for="email">Email:</label>
+                     <input type="text" id="email" name="lname" value="example@email.com"><br />
+
+                     <!-- Input MESSAGE -->
+                     <label for="messagebox">Message:</label>
+                     <textarea name="messagebox" id="message-box" cols="30" rows="10">Leave a message.</textarea><br />
+
+                     <button type="submit" value="Submit" id="submit">Submit</button>
                   </form>
 
                </div>
 
             </div>
-
-
-
-
 
          </div>
       </main>
@@ -73,6 +92,8 @@
       <footer>
          <p>Copyright &copy; 2022 Patti W.</p> <a href="conduct.html">Code of Conduct</a>
       </footer>
+
+      <script src="scripts/scripts.js"></script>
       
    </body>
 </html>
