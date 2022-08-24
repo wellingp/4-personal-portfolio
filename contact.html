@@ -7,7 +7,7 @@
       <meta name="author" content="Patti W">
       <meta name="description" content="">
       <meta name="keywords" content="">
-      <title>Document</title>
+      <title>Contact - The P Chord</title>
       <link rel="stylesheet" href="styles/main-style.css">
       <link rel="stylesheet" href="styles/grid.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,8 +37,6 @@
          </div>
       </header>
 
-      <!--FIX SO THESE RESIZE PROPERLY-->
-
       <main class="border-bottom">
          <div class="container">
             <div class="row border-bottom">
@@ -61,23 +59,27 @@
                <div class="col-lg">
                   <h3>Message</h3>
                   <p>Call me! I promise I'll call you back.</p>
-                  <form action="" method="post">
+                  <form action="contact.php" method="post" id="contact-form">
 
-                     <!-- Input FIRST NAME -->
-                     <label for="fname">First name:</label>
-                     <input type="text" id="fname" name="fname" value="First Name"><br />
+                     <!-- Input FULL NAME -->
+                     <label for="fname"></label>
+                     <input type="text" id="fname" name="fname" aria-placeholder="Full Name" value="Full Name" pattern=[A-Z\sa-z]{3,20} required><br />
 
-                     <!-- Input LAST NAME -->
-                     <label for="lname">Last name:</label>
-                     <input type="text" id="lname" name="lname" value="Last Name"><br />
+                     <!-- Input COMPANY -->
+                     <label for="company"></label>
+                     <input type="text" id="company" name="company" aria-placeholder="Company Name" value="Company Name"><br />
+
+                     <!-- Input REASON -->
+                     <label for="reason"></label>
+                     <input type="text" id="reason" name="reason" aria-placeholder="Reason For Contact" value="Reason For Contact" pattern=[A-Z\sa-z]{3,20} required><br />
 
                      <!-- Input EMAIL -->
-                     <label for="email">Email:</label>
-                     <input type="text" id="email" name="lname" value="example@email.com"><br />
+                     <label for="email"></label>
+                     <input type="text" id="email" name="lname" aria-placeholder="Email" value="example@email.com" required><br />
 
                      <!-- Input MESSAGE -->
-                     <label for="messagebox">Message:</label>
-                     <textarea name="messagebox" id="message-box" cols="30" rows="10">Leave a message.</textarea><br />
+                     <label for="message-box"></label>
+                     <textarea name="message-box" aria-placeholder="Message" id="message-box" cols="30" rows="10">Leave a message.</textarea><br />
 
                      <button type="submit" value="Submit" id="submit">Submit</button>
                   </form>
@@ -90,7 +92,23 @@
       </main>
 
       <footer>
-         <p>Copyright &copy; 2022 Patti W.</p> <a href="conduct.html">Code of Conduct</a>
+         <div class="row">
+            <div class="col-xl">
+               <ul id="hidden-footer-ul">
+                  <a href="index.html"><li>Home</li></a>
+                  <a href="about.html"><li>About</li></a>
+                  <a href="stack.html"><li>Stack</li></a>
+                  <a href="projects.html"><li>Projects</li></a>
+                  <a href="contact.html"><li>Contact</li></a>
+               </ul>
+            </div>
+            <div class="col-xl">
+               <p>Copyright &copy; 2022 Patti W.</p>
+            </div>
+            <div class="col-xl">
+               <p><a href="conduct.html">Code of Conduct</a></p>
+            </div>
+         </div>
       </footer>
 
       <script src="scripts/scripts.js"></script>

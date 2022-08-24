@@ -12,7 +12,8 @@ body{
 }
 
 div.container{
-   width: 80%;
+   width: 100%;
+   padding: 0;
 }
 
 div.col-md{
@@ -32,7 +33,8 @@ div.col-md.border-right{
 }
 
 div.row{
-   width: 100%;
+   margin: 0 auto;
+   width: 80%;
    background-color: rgba(255, 255, 255, 0.05);
 }
 
@@ -128,7 +130,7 @@ img.stack-icon{
    width: 15%;
    height: auto;
    margin: 0 auto;
-   display: block;
+   display: inline;
 }
 
 a{
@@ -137,10 +139,12 @@ a{
    font-weight: 600;
 }
 
+/*BUTTONS ON THE INDEX*/
+
 .index-button{
    padding: 30% 20%;
    font-weight: bold;
-   font-size: 3em;
+   font-size: 2em;
    color: rgb(255, 255, 255);
    text-shadow: 2px 2px 5px black;
    opacity: 60%;
@@ -172,6 +176,46 @@ a{
    background-size: cover;
 }
 
+/*BUTTONS ON THE PROJECT PAGE*/
+
+.project-button{
+   padding-left: 25%;
+   padding-right: 25%;
+   font-size: 3em;
+   background-size: cover;
+}
+
+.project-button i{
+   color: whitesmoke;
+   background-color: rgb(22, 22, 22);
+   border-radius: 10%;
+   padding: 5%;
+   margin-top: 80%;
+   margin-bottom: 10%;
+}
+
+#monkees-button{
+   background-image: url('../images/projects-monkees.jpg');
+}
+
+#MMT-button{
+   background-image: url('../images/projects-mystery-tour.jpg');
+}
+
+#splash-button{
+   background-image: url('../images/flowers-white.jpg');
+}
+
+#landscaping-button{
+   background-image: url('../images/projects-bob.png');
+}
+
+.project-padding{
+   margin: 5%;
+}
+
+/*BUTTONS ON THE STACK PAGE*/
+
 .stack-box{
    padding: 12% 1%;
    font-size: 1em;
@@ -197,8 +241,7 @@ a{
 
 .stack-box h3{
    font-family: 'Londrina Outline', cursive;
-   color: black;
-   text-shadow: 2px 2px 5px white;
+   color: white;
    font-weight: bold;
 }
 
@@ -212,6 +255,10 @@ main a:visited, footer a:visited{
    margin-bottom: 2%;
 }
 
+footer a{
+   font-family: 'Cutive Mono', monospace;
+}
+
 i{
    font-family: fontawesome;
    font-style: normal;
@@ -220,9 +267,6 @@ i{
 
 .fa-brands:hover, .fa-solid:hover{
    color: rgb(156, 207, 101);
-   font-weight: 800;
-   font-size: 1.1em;
-
 }
 
 .main-em{
@@ -239,6 +283,15 @@ em{
 strong{
    color: rgb(156, 207, 101);
    font-weight: 600;
+}
+
+.side-padding{
+   margin-left: 4%;
+   margin-right: 4%;
+}
+
+.bottom-padding{
+   margin-bottom: 10%;
 }
 
 .bold{
@@ -314,9 +367,9 @@ ul#nav-ul{
    color: rgb(156, 207, 101);
 }
 
-ul#footer-ul{
+footer ul{
    margin-top: 3%;
-
+   padding-left: 0;
 }
 
 #footer-ul li{
@@ -328,6 +381,17 @@ ul#footer-ul{
 }
 
 #footer-ul li:hover{
+   color: rgb(144, 144, 144);
+}
+
+#hidden-footer-ul li{
+   padding-right:2%;
+   color: rgb(22, 22, 22);
+   font-weight: 300;
+   font-size: 0.9em;
+}
+
+#hidden-footer-ul li:hover{
    color: rgb(144, 144, 144);
 }
 
@@ -473,21 +537,28 @@ button#submit:hover{
    font-weight: 800;
 }
 
-input#fname, input#lname, input#email, input#message-box{
+input#fname, input#lname, input#email, input#message-box, input#company, input#reason{
    text-align: center;
 }
 
 /*xsm*/
 @media (min-width: 200px) {
+   
    .border-right{
       border-right: solid 0px black;
    }
+
    #nav-ul li{
       display: block;
    }
+
    header{
       background-color: white;
       position: relative;
+   }
+
+   #index-bio li{
+      display: block;
    }
 }
 
@@ -495,62 +566,105 @@ input#fname, input#lname, input#email, input#message-box{
 
 /*sm*/
 @media (min-width: 576px) {
+
    .border-right{
       border-right: solid 0px black;
    }
+
    #nav-ul li{
+      display: block;
+   }
+
+   #hidden-footer-ul li{
+      display: inline;
+   }
+
+   #index-bio li{
       display: block;
    }
 }
 
 /*md*/
 @media (min-width: 768px) {
+
    .border-right{
       border-right: solid 1em black;
    }
+
    #nav-ul li{
       display: block;
    }
+
    header{
       background-color: white;
       position: sticky;
       top: 0;
       width: 100%;
       z-index: 1;
+   }
+
+   #hidden-footer-ul li{
+      display: none;
+   }
+
+   #index-bio li{
+      display: block;
    }
 }
 
 /*lg*/
 @media (min-width: 768px) {
+
    .border-right-lg{
       border-right: solid 0em black;
    }
+
    #nav-ul li{
       display: inline;
    }
+
    header{
       background-color: white;
       position: sticky;
       top: 0;
       width: 100%;
       z-index: 1;
+   }
+
+   #hidden-footer-ul li{
+      display: none;
+   }
+
+   #index-bio li{
+      display: block;
    }
 }
 
 /*xl*/
 @media (min-width: 992px) {
+
    .border-right-lg{
       border-right: solid 1em black;
    }
+
    #nav-ul li{
       display: inline;
    }
+
    header{
       background-color: white;
       position: sticky;
       top: 0;
       width: 100%;
       z-index: 1;
+   }
+
+   #hidden-footer-ul li{
+      display: none;
+   }
+
+   #index-bio li{
+      display: inline;
    }
 }
 
