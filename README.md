@@ -19,10 +19,10 @@ On GitHub: https://github.com/wellingp/4-personal-portfolio
 
 ### Tasks
 
-- [ ] Make self-illustration (content).
-- [ ] Take polaroid photos for the index (content).
+- [x] Make self-illustration (content).
+- [x] Take polaroid photos for the index (content).
 - [ ] Fill in page meta data.
-- [ ] Image dimensions.
-- [ ] Image alts.
-- [ ] Change active navs.
-- [ ] Save images for web.
+- [x] Image dimensions.
+- [x] Image alts.
+- [x] Change active navs.
+- [x] Save images for web.

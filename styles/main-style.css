@@ -3,23 +3,23 @@ body{
    text-align: center;
    font-size: 1.2rem;  
    align-items: center;
-   background-color: rgb(22, 22, 22);
    background-attachment: fixed;
    margin: 0 auto;
    width: 100%;
-   font-family: 'Quicksand', sans-serif;
    color: rgba(255, 255, 255, 0.8);
+}
+
+body, .project-button i, form{
+   background-color: rgb(22, 22, 22);
+}
+
+#footer-ul li, #hidden-footer-ul li{
+   color: rgb(22, 22, 22);
 }
 
 div.container{
    width: 100%;
    padding: 0;
-}
-
-div.col-md{
-   padding-left: 0;
-   padding-right: 0;
-   width: 100%;
 }
 
 div.col-xl, div.col-md, div.col-lg.border-right-lg, div.col-lg{
@@ -28,7 +28,7 @@ div.col-xl, div.col-md, div.col-lg.border-right-lg, div.col-lg{
    width: 100%;
 }
 
-div.col-md.border-right{
+div.col-md.border-right, img, header, header.border-bottom, header div.row{
    width: 100%;
 }
 
@@ -38,21 +38,31 @@ div.row{
    background-color: rgba(255, 255, 255, 0.05);
 }
 
-div.row.vertical-align{
+div.row.vertical-align, header div.row{
    align-items: center;
+}
+
+h2, h3, h4, h5, h6, header h1, footer a, #nav-ul li, button#submit{
+   font-family: 'Cutive Mono', monospace;
+}
+
+h1, h3, h4, h5, h6, .stack-box h3, blockquote, button#submit, i, .index-button{
+   color: white;
+}
+
+#logo-p, ul.inline a, footer{
+   color: black;
 }
 
 h3, h4, h5, h6{
    padding-bottom: 3%;
-   font-weight: bold;
-   color: black;
-   font-family: 'Cutive Mono', monospace;
-   color: white;
+}
 
+h2, h3, h4, h5, h6, .index-button, .index-button:hover, .stack-box h3, a{
+   font-weight: bold;
 }
 
 header h1{
-   font-family: 'Cutive Mono', monospace;
    font-size: 1.5em;
    margin-top: 2%;
    margin-bottom: 2%;
@@ -62,37 +72,20 @@ header h1{
 
 h1{
    font-size: 1.6em;
-   color: fff;
 }
 
 header h2{
    font-size: 1.4em;
-   
 }
 
 h2{
-   font-family: 'Cutive Mono', monospace;
    font-size: 3em;
    color: rgba(156, 207, 101, 0.8);
    padding-bottom: 3%;
-   font-weight: bold;
 }
 
 h3{
    font-size: 2em;
-
-}
-
-h4{
-
-}
-
-h5{
-
-}
-
-h6{
-
 }
 
 main p{
@@ -110,12 +103,19 @@ p.main-spacing{
    padding-top: 10%;
 }
 
-img{
-   width: 100%;
-   height: auto;
-   padding: 0;
-   margin: 0;
+img, .main-em{
    display: block;
+}
+
+img, img.stack-icon, header.border-bottom{
+   height: auto;
+}
+img, img.stack-icon{
+   margin: 0 auto;
+}
+
+img{
+   padding: 0;
 }
 
 img.hover-link-image{
@@ -128,52 +128,53 @@ img.hover-link-image:hover{
 
 img.stack-icon{
    width: 15%;
-   height: auto;
-   margin: 0 auto;
    display: inline;
 }
 
 a{
    text-decoration: none;
+}
+
+strong{
+   font-weight: normal;
+}
+
+header a{
    color: rgb(178, 109, 159);
-   font-weight: 600;
+}
+
+.index-button, .stack-box, .stack-box h3{
+   font-family: 'Londrina Outline', cursive;
 }
 
 /*BUTTONS ON THE INDEX*/
 
 .index-button{
-   padding: 30% 20%;
-   font-weight: bold;
+   padding: 30% 25%;
    font-size: 2em;
-   color: rgb(255, 255, 255);
    text-shadow: 2px 2px 5px black;
    opacity: 60%;
-   font-family: 'Londrina Outline', cursive;
+   background-size: cover;
 }
 
 .index-button:hover{
    opacity: 100%;
-   font-weight: bold;
 }
 
 #about-button{
-   background-image: url('../images/indexbutton1.jpg');
-   background-size: cover;
+   background-image: url('../images/indexbutton1-web.jpg');
 }
 
 #stack-button{
-   background-image: url('../images/indexbutton2.jpg');
-   background-size: cover;
+   background-image: url('../images/indexbutton2-web.jpg');
 }
 
 #projects-button{
-   background-image: url('../images/indexbutton3.jpg');
-   background-size: cover;
+   background-image: url('../images/indexbutton3-web.jpg');
 }
 
 #contact-button{
-   background-image: url('../images/indexbutton4.jpg');
-   background-size: cover;
+   background-image: url('../images/indexbutton4-web.jpg');
 }
 
 /*BUTTONS ON THE PROJECT PAGE*/
@@ -181,13 +182,12 @@ a{
 .project-button{
    padding-left: 25%;
    padding-right: 25%;
-   font-size: 3em;
+   font-size: 2em;
    background-size: cover;
 }
 
 .project-button i{
    color: whitesmoke;
-   background-color: rgb(22, 22, 22);
    border-radius: 10%;
    padding: 5%;
    margin-top: 80%;
@@ -218,9 +218,7 @@ a{
 
 .stack-box{
    padding: 12% 1%;
-   font-size: 1em;
    background-size: cover;
-   font-family: 'Londrina Outline', cursive;
 }
 
 #education-box{
@@ -239,59 +237,53 @@ a{
    background-image: url('../images/stack-other2.png');
 }
 
-.stack-box h3{
-   font-family: 'Londrina Outline', cursive;
-   color: white;
-   font-weight: bold;
+footer a{
+   margin-bottom: 2%;
 }
 
 main a, footer a{
-   color: rgb(196, 203, 093);
-   margin-bottom: 2%;
+   color: rgb(195, 123, 123);
+}
+
+main a:hover, footer a:hover{
+   color: rgb(233, 198, 198);
 }
 
 main a:visited, footer a:visited{
-   color: rgb(134, 138, 070);
+   color: rgb(129, 89, 89);
    margin-bottom: 2%;
-}
-
-footer a{
-   font-family: 'Cutive Mono', monospace;
 }
 
 i{
    font-family: fontawesome;
    font-style: normal;
-   color: rgba(255, 255, 255, 0.8);
 }
 
-.fa-brands:hover, .fa-solid:hover{
+.fa-brands:hover, .fa-solid:hover, .main-em, strong{
    color: rgb(156, 207, 101);
 }
 
 .main-em{
    font-size: 2em;
    font-style: italic;
-   color: rgb(156, 207, 101);
-   display: block;
-}
-
-em{
-
-}
-
-strong{
-   color: rgb(156, 207, 101);
-   font-weight: 600;
 }
 
 .side-padding{
    margin-left: 4%;
    margin-right: 4%;
+   padding-bottom: 0;
 }
 
 .bottom-padding{
    margin-bottom: 10%;
+}
+
+.bottom-md-padding{
+   margin-bottom: 5%;
+}
+
+.bottom-sm-padding{
+   margin-bottom: 2%;
 }
 
 .bold{
@@ -299,30 +291,13 @@ strong{
 }
 
 blockquote{
-   font-size: 1.2em;
+   font-size: 1.4em;
    font-style: italic;
    font-weight: 500;
-   color: white;
    background-color: rgba(255, 255, 255, 0.1);
    border-radius: 10px;
    padding: 10%;
-}
-
-@keyframes spin {
-   from {
-      transform:rotate(0deg);
-}
-   to {
-      transform:rotate(360deg);
-   }
-}
-
-#logo-p{
-   color: black;
-}
-
-.logo-flower{
-   /* color: rgb(236, 214, 240); */
+   margin: 2%;
 }
 
 ul{
@@ -330,13 +305,6 @@ ul{
    font-size: 1.1;
    list-style-position: inside;
    list-style-type: none;
-}
-
-li{
-}
-
-nav{
-   
 }
 
 #nav-ul ul{
@@ -349,7 +317,6 @@ ul#nav-ul{
 }
 
 #nav-ul li{
-   font-family: 'Cutive Mono', monospace;
    display: inline;
    font-size: 1.1em;
    padding-left: 2%;
@@ -373,9 +340,7 @@ footer ul{
 }
 
 #footer-ul li{
-   display: inline;
    padding-right:2%;
-   color: rgb(22, 22, 22);
    font-weight: 300;
    font-size: 0.9em;
 }
@@ -386,7 +351,6 @@ footer ul{
 
 #hidden-footer-ul li{
    padding-right:2%;
-   color: rgb(22, 22, 22);
    font-weight: 300;
    font-size: 0.9em;
 }
@@ -395,8 +359,11 @@ footer ul{
    color: rgb(144, 144, 144);
 }
 
+ul.inline{
+   padding-left: 0;
+}
+
 ul.inline.main-spacing{
-   padding-right: 9%;
    padding-top: 0;
 }
 
@@ -406,7 +373,6 @@ ul.inline li{
 }
 
 ul.inline a{
-   color: black;
    font-size: 2em;
 }
 
@@ -424,49 +390,19 @@ header{
    background-color: white;
    position: sticky;
    top: 0;
-   width: 100%;
    z-index: 1;
-}
-
-header.border-bottom{
-   width: 100%;
-   height: auto;
-}
-
-header div.row{
-   width: 100%;
-   align-items: center;
-}
-
-main{
-   
-}
-
-main div.col-md.border-right{
-   
-}
-
-main div.col-md{
-   
 }
 
 div.col-md.reveal.col-md{
    font-size: 1.2em;
    font-style: italic;
    font-weight: 500;
-   
    border-radius: 10px;
    padding: 2%;
-   margin-left: 2%;
-   margin-right: 2%;
-   
 }
 
 div.row.vertical-align{
    background-color: rgba(255, 255, 255, 0.1);
-}
-
-div.row.vertical-align{
 }
 
 div.col-md.reveal ul{
@@ -482,7 +418,6 @@ div.col-md.reveal ul{
 
 footer{
    background-color: rgba(255, 255, 255, 0.95);
-   color: black;
    padding-top: 1%;
    padding-bottom: 2%;
 }
@@ -496,9 +431,12 @@ footer p{
 form{
    margin: 5% auto;
    padding: 5%;
-   background-color: rgb(22, 22, 22);
    border-radius: 10px;
    width: 80%;
+}
+
+input, textarea, body{
+   font-family: 'Quicksand', sans-serif;
 }
 
 input, textarea{
@@ -507,7 +445,6 @@ input, textarea{
    width: 80%;
    border-radius: 10px;
    color: gray;
-   font-family: 'Quicksand', sans-serif;
 }
 
 textarea{
@@ -525,10 +462,8 @@ button#submit{
    border-radius: 10px;
    border: none;
    background-color: rgb(178, 109, 159);
-   color: white;
    font-size: 1.2em;
    font-weight: 800;
-   font-family: 'Cutive Mono', monospace;
 }
 
 button#submit:hover{
@@ -540,6 +475,8 @@ button#submit:hover{
 input#fname, input#lname, input#email, input#message-box, input#company, input#reason{
    text-align: center;
 }
+
+/*MEDIA QUERIES*/
 
 /*xsm*/
 @media (min-width: 200px) {
@@ -560,9 +497,11 @@ input#fname, input#lname, input#email, input#message-box, input#company, input#r
    #index-bio li{
       display: block;
    }
+
+   #footer-ul li{
+      display: block;
+   }
 }
-
-
 
 /*sm*/
 @media (min-width: 576px) {
@@ -575,8 +514,8 @@ input#fname, input#lname, input#email, input#message-box, input#company, input#r
       display: block;
    }
 
-   #hidden-footer-ul li{
-      display: inline;
+   #footer-ul li{
+      display: block;
    }
 
    #index-bio li{
@@ -599,12 +538,11 @@ input#fname, input#lname, input#email, input#message-box, input#company, input#r
       background-color: white;
       position: sticky;
       top: 0;
-      width: 100%;
       z-index: 1;
    }
 
-   #hidden-footer-ul li{
-      display: none;
+   #footer-ul li{
+      display: block;
    }
 
    #index-bio li{
@@ -627,12 +565,11 @@ input#fname, input#lname, input#email, input#message-box, input#company, input#r
       background-color: white;
       position: sticky;
       top: 0;
-      width: 100%;
       z-index: 1;
    }
 
-   #hidden-footer-ul li{
-      display: none;
+   #footer-ul li{
+      display: block;
    }
 
    #index-bio li{
@@ -655,12 +592,11 @@ input#fname, input#lname, input#email, input#message-box, input#company, input#r
       background-color: white;
       position: sticky;
       top: 0;
-      width: 100%;
       z-index: 1;
    }
 
-   #hidden-footer-ul li{
-      display: none;
+   #footer-ul li{
+      display: inline;
    }
 
    #index-bio li{
