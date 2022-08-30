@@ -1,0 +1,17 @@
+const form = document.getElementById("contact-form");
+
+const formEvent = form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  let mail = new FormData(form);
+  sendMail(mail);
+});
+
+const sendMail = (mail) => {
+  fetch("/send", {
+    //mode: 'no-cors', line added by me
+    method: "post",
+    body: mail,
+  }).then((response) => {
+    return response.json();
+  });
+};
