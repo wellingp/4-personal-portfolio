@@ -32,3 +32,4 @@ On GitHub: https://github.com/wellingp/4-personal-portfolio
 - [ ] Fix alignment issues with ULs (mobile).
 - [ ] Fix text issues with headers that are too big (mobile).
 - [ ] Make git repos public.
+- [ ] Look into domain name.
