@@ -7,10 +7,11 @@
 A digital portfolio of works in the style of 60s mod art.
 
 ### Tech
-Vanilla HTML, CSS, and JavaScript.
+Vanilla HTML, CSS, JavaScript, Node JS.
 
 ### Links
 
+Online: https://pattiw1.sg-host.com/index.html
 On GitHub: https://github.com/wellingp/4-personal-portfolio
 
 ### Project End Date:
@@ -26,3 +27,7 @@ On GitHub: https://github.com/wellingp/4-personal-portfolio
 - [x] Image alts.
 - [x] Change active navs.
 - [x] Save images for web.
+- [ ] Add direct email link on Contact.
+- [ ] Add favicon.
+- [ ] Fix alignment issues with ULs (mobile).
+- [ ] Fix text issues with headers that are too big (mobile).
