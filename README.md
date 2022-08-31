@@ -31,3 +31,4 @@ On GitHub: https://github.com/wellingp/4-personal-portfolio
 - [ ] Add favicon.
 - [ ] Fix alignment issues with ULs (mobile).
 - [ ] Fix text issues with headers that are too big (mobile).
+- [ ] Make git repos public.
