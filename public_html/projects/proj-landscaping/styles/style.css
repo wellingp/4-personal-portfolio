@@ -1,0 +1,364 @@
+.container-fluid{
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #47624f; /*dark green*/
+  padding: 0;
+}
+
+header, #header-image{
+  width: 100%;
+  padding: 0;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+}
+
+.row, .column{
+  border-collapse: collapse;
+}
+
+body{
+  background-color: #e2e9e4; /*green grey*/
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+
+header, footer{
+  background-color: #fff;
+}
+
+#header-image{
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+#header-logo{
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.8em;
+  padding-top: 0.4em;
+}
+
+h3.h6{
+  padding-top: 0.5em;
+  color: #333;
+}
+
+#page-h1{
+  margin-bottom: 5%;
+}
+
+#page{
+  padding-left: 0.94em;
+  padding-right: 0.94em;
+}
+
+#secondary-page{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.servicebuttonhover:hover{
+  opacity: 0.8;
+}
+
+a{
+  color: #58705f; /*lighter dark green*/
+}
+
+a:visited{
+  color: #47624f; /*darker green*/
+}
+
+a:hover{
+  color: #58705f;
+}
+
+a.nav-link{
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-left: 1.2em;
+}
+
+#main-nav{
+  background-color: #47624f;
+  padding-bottom: 1%;
+}
+
+a.nav-link:hover{
+  color: yellow;
+}
+
+a.btn{
+  color: white;
+  box-shadow: 0px 0px 10px 2px yellow;
+  margin-bottom: 0.5em;
+  animation-name: yellow-glow;
+  animation-duration: 5s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+@keyframes yellow-glow{
+  0%{box-shadow: 0px 0px 10px 2px white;}
+  25%{box-shadow: 0px 0px 10px 2px yellow;}
+  50%{box-shadow: 0px 0px 10px 2px white;}
+  75%{box-shadow: 0px 0px 10px 2px yellow;}
+  100%{box-shadow: 0px 0px 10px 2px white;}
+}
+
+a.btn:hover{
+  transform: scale(1.1);
+  background-color: #fd6255;
+  color: yellow;
+}
+
+.btn-danger{
+  color: #fff;
+  background-color: #fd4d3e; /*orange red*/
+  margin-top: 1.2rem;
+}
+
+.greybg{
+  background-color: rgba(233, 236, 239);
+  background-color: rgba(233, 236, 239, 0.1);
+  padding: 2%;
+  border-radius: 10%;
+}
+
+.greybg2{
+  background-color: rgba(233, 236, 239);
+  background-color: rgba(233, 236, 239, 0.1);
+  border-radius: 1%;
+}
+
+.jumbotron{
+  height: auto;
+  margin-top: 1%;
+  margin-right: 1%;
+  padding-top: 16%;
+  padding-bottom: 17%;
+  background-color: #e2e9e4;
+  color: #333;
+  /*background-color: rgba(233, 236, 239, 0.4);*/
+}
+
+#main-content{
+  padding: 0 1.5em 1.5em 1.5em;
+  background-color: #47624f;
+  margin-left: 0;
+}
+
+.navbar-right{
+  float: right;
+}
+
+#content{
+  padding: 0 1.5em 1.5em 1.5em;
+  background-color: #e2e9e4;
+}
+
+#alternate-content{
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: #e2e9e4;
+}
+
+.jumbotron-logo{
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 1%;
+}
+
+.service-paragraph{
+  margin-bottom: -0.5%;
+}
+
+#testimonial-row{
+  padding-bottom: 1%;
+}
+
+.breadcrumb{
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  background-color: #47624f;
+  font-size: 1.1em;
+}
+
+ol.breadcrumb.secondary{
+  background-color: #e2e9e4;
+}
+
+.breadcrumb-item a{
+  color: #222;
+}
+
+ol.breadcrumb.secondary{
+  padding-left: 2em;
+}
+
+.card{
+  margin: 0 auto;
+}
+
+footer{
+  padding-top: 3%;
+}
+
+abbr[data-original-title], abbr[title], footer h5{
+  text-decoration: none;
+}
+
+.boldabbr{
+  font-weight: bold;
+}
+
+#about-paragraph{
+  padding-bottom: 2%;
+}
+
+#pastprojects{
+  padding-bottom: 2%;
+}
+
+h5.h1.jumbotron-logo, #contact-link, #page-h1-projects, strong, h6.h6, #page-h2, #page-h1-no-pad, #page-h1, .decorative-h2, h2.h6{
+  color: #fd4d3e;
+}
+
+#servicelinks a{
+  font-weight: bold;
+}
+
+.breadcrumb-item.active{
+  color: #fd4d3e;
+}
+
+/* #e2e9e4; off white*/
+/* #fd4d3e; hard-to-read red*/
+
+#page-h1-no-pad, #page-h1{
+  padding-top: 0;
+  padding-bottom: 1%;
+  margin-bottom: 0;
+}
+
+/*Form Styling*/
+
+#fnameerror, #lnameerror, #emailerror, #servicemissing, #formerror{
+  color: #ff0000;
+  font-weight: bold;
+}
+
+input[type=text], input[type=email], select, button, input, select, textarea{
+  box-sizing: border-box;
+}
+
+button, input, select, textarea{
+  font-family: inherit;
+  font-size: 100%;
+}
+
+input[type=text], input[type=email], select, textarea{
+  border: 1px solid #ccc;
+}
+
+input[type=text], input[type=email], select{
+  padding: 2px;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+textarea {
+  padding: 10px;
+  line-height: 1.5;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #999;
+}
+
+input[type=submit] {
+  background-color: #fd4d3e;
+  color: #111;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+label {
+  clear: both;
+  padding: 1%;
+  margin-bottom: 10px;
+}
+
+form{
+  margin-left: -4%;
+  margin-bottom: 3%;
+}
+
+#markedfieldstext{
+  margin-top: -1%;
+}
+
+#about-us-text{
+  margin-left: -1.5%;
+}
+
+input {
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  text-align: center;
+}
+
+/*Bootstrap X-SM*/
+@media (min-width: 200px) {
+  nav.navbar.navbar-light.bg-faded {display: block;}
+  h1#header-logo.h4 {font-size: 110%}
+  textarea#message {width: 100%;}
+  input#email{width: 100%;}
+}
+
+/*Bootstrap SM*/
+@media (min-width: 576px) {
+  input#email{width: 50%;}
+  h1#header-logo.h4 {font-size: 150%}
+}
+
+/*Bootstrap MD*/
+@media (min-width: 768px) {
+  nav.navbar.navbar-light.bg-faded {display: flex;}
+  h1#header-logo.h4 {font-size: 1.8em}
+  textarea#message {width: 110%;}
+  input#email{width: 50%;}
+}
+
+/*Bootstrap LG*/
+@media (min-width: 1050px) {
+  nav.navbar.navbar-light.bg-faded {display: flex;}
+  h1#header-logo.h4 {font-size: 1.8em}
+  textarea#message {width: 100%;}
+  input#email{width: 50%;}
+}
