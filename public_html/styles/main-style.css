@@ -286,6 +286,10 @@ i{
    margin-bottom: 2%;
 }
 
+.top-padding{
+   margin-top: 5%;
+}
+
 .bold{
    font-weight: 600;
 }
@@ -377,9 +381,13 @@ ul.inline a{
 }
 
 .list-style-dash li{
-   list-style-type: '- ';
+   list-style-type: '⬦ ';
    padding: 1%;
    font-size: 0.9em;
+}
+
+ul.list-style-dash.bottom-md-padding{
+   padding-left: 0;
 }
 
 .border-bottom{
@@ -501,6 +509,22 @@ input#name, input#email, input#message, input#company, input#subject{
    #footer-ul li{
       display: block;
    }
+
+   body{
+      font-size: 1rem; 
+   }
+
+   h1{
+      font-size: 1.4rem;
+   }
+
+   h2{
+      font-size: 2.8rem;
+   }
+
+   h3{
+      font-size: 1.8rem;
+   }
 }
 
 /*sm*/
@@ -520,6 +544,22 @@ input#name, input#email, input#message, input#company, input#subject{
 
    #index-bio li{
       display: block;
+   }
+
+   body{
+      font-size: 1.2rem; 
+   }
+
+   h1{
+      font-size: 1.6rem;
+   }
+
+   h2{
+      font-size: 3rem;
+   }
+
+   h3{
+      font-size: 2rem;
    }
 }
 
@@ -548,6 +588,22 @@ input#name, input#email, input#message, input#company, input#subject{
    #index-bio li{
       display: block;
    }
+
+   body{
+      font-size: 1.2rem; 
+   }
+
+   h1{
+      font-size: 1.6rem;
+   }
+
+   h2{
+      font-size: 3rem;
+   }
+
+   h3{
+      font-size: 2rem;
+   }
 }
 
 /*lg*/
@@ -575,6 +631,22 @@ input#name, input#email, input#message, input#company, input#subject{
    #index-bio li{
       display: block;
    }
+
+   body{
+      font-size: 1.2rem; 
+   }
+
+   h1{
+      font-size: 1.6rem;
+   }
+
+   h2{
+      font-size: 3rem;
+   }
+
+   h3{
+      font-size: 2rem;
+   }
 }
 
 /*xl*/
@@ -601,6 +673,22 @@ input#name, input#email, input#message, input#company, input#subject{
 
    #index-bio li{
       display: inline;
+   }
+
+   body{
+      font-size: 1.2rem; 
+   }
+
+   h1{
+      font-size: 1.6rem;
+   }
+
+   h2{
+      font-size: 3rem;
+   }
+
+   h3{
+      font-size: 2rem;
    }
 }
 
