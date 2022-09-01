@@ -4,7 +4,7 @@
 
 ### Motivation
 
-A digital portfolio of works in the style of 60s mod art.
+A digital portfolio of works in the style of 90s vaporwave.
 
 ### Tech
 Vanilla HTML, CSS, JavaScript, Node JS.
