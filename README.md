@@ -34,3 +34,4 @@ On GitHub: https://github.com/wellingp/4-personal-portfolio
 - [ ] Make git repos public.
 - [ ] Look into domain name.
 - [ ] Add JS to remove form placeholders.
+- [ ] Make professional email (replace one in form and SNS button).
