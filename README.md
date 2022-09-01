@@ -27,7 +27,7 @@ On GitHub: https://github.com/wellingp/4-personal-portfolio
 - [x] Image alts.
 - [x] Change active navs.
 - [x] Save images for web.
-- [ ] Add direct email link on Contact.
+- [x] Add direct email link on Contact.
 - [ ] Add favicon.
 - [ ] Fix alignment issues with ULs (mobile).
 - [ ] Fix text issues with headers that are too big (mobile).
