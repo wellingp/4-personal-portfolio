@@ -1,0 +1,109 @@
+body{
+   background-image: url('../images/bg2-dark.png');
+   background-size: cover;
+   background-attachment: fixed;
+   width: 100%;
+   margin: 0 auto;
+   font-size: 1rem;
+   color: white;
+   font-family: 'Lexend Deca', sans-serif;
+}
+
+.container{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+}
+
+.item{
+   
+}
+
+header, main, footer{
+   width: 95%;
+   margin: 0 auto;
+}
+
+button{
+   background-color: rgb(233, 177, 34);
+   color: white;
+   border: solid 1px rgb(233, 177, 34);
+   border-radius: 10px;
+   padding: 1% 5%;
+   font-size: 1em;
+   font-weight: normal;
+   font-family: 'Lexend Deca', sans-serif;
+}
+
+button:hover{
+   background-color: goldenrod;
+   color: rgb(243, 243, 243);
+}
+
+img{
+   max-width: 100%;
+}
+
+header{
+   margin-bottom: 5%;
+}
+
+main, footer{
+   align-items: center;
+   align-content: center;
+   text-align: center;
+}
+
+footer{
+
+}
+
+h1{
+   display: inline;
+   font-size: 3em;
+   color: goldenrod;
+   font-family: 'Monoton', cursive;
+   font-weight: normal;
+}
+
+h2{
+   margin-top: 0;
+   font-size: 2.5em;
+}
+
+h3{
+   
+}
+
+/* BREAKPOINTS */
+
+/* SMALL */
+@media (min-width: 576px) {
+   .container{
+      
+   }
+}
+
+/*MEDIUM*/
+@media (min-width: 768px) {
+   .container{
+      
+   }
+}
+
+/*LARGE*/
+@media (min-width: 992px) {
+   .container{
+      
+   }
+}
+
+/*XLARGE*/
+@media (min-width: 1200px) {
+   .container{
+      
+   }
+}

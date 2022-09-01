@@ -1,0 +1,283 @@
+body{
+   text-align: center;
+   align-items: center;
+   background-image: url(../images/wallpaper.png);
+   background-color: white;
+   background-attachment: fixed;
+   background-size: 100%;
+   margin: 0 auto 2% auto;
+   font-family: 'Nunito', sans-serif;
+   font-weight: 300;
+   font-size: 1rem;
+}
+
+div.container{
+   margin-bottom: 0;
+   padding-bottom: 0;
+   font-size: 1.2em;
+}
+
+a{
+   text-decoration: none;
+   color: firebrick;
+   font-weight: bold;
+   font-family: 'Nunito', sans-serif;
+}
+
+a:hover{
+   color: goldenrod;
+}
+
+.active-a{
+   color: black;
+}
+
+nav{
+   padding-top: 1%;
+}
+
+nav a{
+   font-size: 1.2em;
+}
+
+nav a:hover, button a:hover{
+   color: white;
+}
+
+i{
+   font-family: fontawesome;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 1.2em;
+}
+
+p{
+   padding-top: 1%;
+   padding-bottom: 1%;
+   margin-bottom: 1%;
+   margin-top: 1%;
+}
+
+ul{
+   list-style: none;
+   margin: 0 auto;
+}
+
+h1, h2{
+   font-family: 'Cherry Swash', cursive;
+   color: darkgoldenrod;
+}
+
+h3, th{
+   font-family: 'Nunito', sans-serif;
+   font-weight: 300;
+   margin-top: 2%;
+}
+
+hr{
+   max-width: 80%;
+}
+
+img{
+   max-width: 70%;
+   height: auto;
+   padding: 1%;
+}
+
+button{
+   background-color: yellow;
+   border: none;
+   padding: 1% 2% 1% 2%;
+   border-radius: 15px;
+   font-size: 1.2em;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   font-family: 'Nunito', sans-serif;
+}
+
+button:hover{
+   background-color: goldenrod;
+   color: white;
+}
+
+.expand-button{
+   background-color: firebrick;
+   background-color: rgba(178, 34, 34, 0.825);
+   margin-bottom: 0;
+   color: white;
+}
+
+.expand-button:hover{
+   background-color: rgb(126, 22, 22);
+   margin-bottom: 0;
+   color: rgb(234, 234, 234);
+}
+
+div.container{
+   padding: 0;
+}
+
+div.row{
+   display: flex;
+   align-items: center;
+   margin-bottom: 0;
+   padding-left: 2%;
+   padding-right: 2%;
+}
+
+div.row.yellow{
+   background-color: rgb(156, 134, 134);
+   background-color: rgba(156, 134, 134, 0.2);
+   margin: 0 auto 2% auto;
+   max-width: 96%;
+   padding-top: 1% ;
+}
+
+.hidden{
+   display: none;
+}
+
+div.col-lg-8 img{
+   max-width: 98%;
+   background-color: rgba(255, 206, 58, 0.371);
+}
+
+div.col{
+   margin: 0;
+}
+
+/*INDEX TABLE STYLE*/
+#reservation{
+   display: inline-table;
+   width: 80%;
+   background-color: rgb(255, 249, 128);
+   background-color: rgba(255, 249, 128, 0.5);
+   background-image: url(../images/main-bus-blur.jpg);
+   background-size: cover;
+   border-radius: 15px;
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
+
+#reservation td{
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+
+#reservation th{
+   background-color: rgb(30, 143, 255);
+   background-color: rgba(30, 143, 255, 0.6);
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+}
+/*INDEX TABLE STYLE*/
+
+video{
+   width: 100%;
+   height: 50%;
+   padding: 0;
+   margin: 0;
+}
+
+nav{
+   background-color: rgb(255, 249, 128);
+   background-color: rgba(255, 249, 128, 0.8);
+}
+
+div#attractions-carousel{
+   background-color: rgb(156, 134, 134);
+   background-color: rgba(156, 134, 134, 0.2);
+}
+
+#back-button, #forward-button{
+   color: firebrick;
+   display: inline-block;
+}
+
+#attractions-carousel img{
+   width: 60%;
+}
+
+#attractions-carousel{
+   padding: 1% 2% 2% 2%;
+}
+
+#reservation-banner{
+   background-color: rgb(174, 34, 34);
+   background-color: rgba(178, 34, 34, 0.441);
+   max-width: 98%;
+   margin: 0 auto;
+}
+
+#reservation-banner a{
+   color: white;
+}
+
+#reservation-banner i{
+   font-size: 1em;
+   color: rgb(255, 249, 128);
+}
+
+#reservation-banner a:hover{
+   color: rgb(255, 249, 128);
+}
+
+/*CART STYLE*/
+#reservation-cart{
+   text-align: right;
+   background-color: white;
+   display: inline-table;
+   width: 80%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
+
+#reservation-cart th{
+   background-color: rgb(174, 34, 34);
+   background-color: rgba(178, 34, 34, 0.9);
+}
+
+#place-order{
+   background-color: firebrick;
+}
+
+#reservation-cart tfoot{
+   border: solid grey 1px;
+}
+/*CART STYLE*/
+
+h1.no-top-pad{
+   margin-top: 0.5%;
+}
+
+footer a{
+   font-size: 0.9em;
+   font-weight: 400;
+}
+
+footer i{
+   font-weight: 400;
+   padding: 1%;
+}
+
+div#staff-box{
+   background-color: rgb(255, 206, 58);
+   background-color: rgba(255, 206, 58, 0.371);
+   max-width: 100%;
+   margin: 0 auto;
+   padding: 2% 1% 2% 1%;
+}
+
+main div.container{
+   background-image: linear-gradient(rgb(255, 249, 128), white, white);
+   background-image: linear-gradient(rgba(255, 249, 128, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+   padding-bottom: 2%;
+}
+
+footer div.container{
+   margin: 0 auto;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   background-color: rgb(255, 249, 128);
+   background-color: rgba(255, 249, 128, 0.8);
+}

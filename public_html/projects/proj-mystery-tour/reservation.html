@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <script src="https://kit.fontawesome.com/afe1a8b538.js" crossorigin="anonymous"></script>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Magical Mystery Tours Official Website">
+      <meta name="keywords" content="bus tours, city sightseeing, Beatles, The Beatles, Magical Mystery Tour">
+      <meta name="author" content="Patti W.">
+      <title>The Trip of a Lifetime &#45; Magical Mystery Tours</title>
+      <link rel="stylesheet" href="styles/styles.css">
+      <link rel="stylesheet" href="styles/grid.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=Nunito:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <div class="container">
+            <nav>
+               <div class="row">
+                  <div class="col">
+                     <img src="images/mmt-logo.png" id="logo-small" alt="Magical Mystery Tours Logo" height="310" width="800">
+                  </div>
+                  <div class="col-md">
+                     <a href="index.html">Home</a>
+                  </div>
+                  <div class="col-md">
+                     <a href="about.html">The Trip</a>
+                  </div>
+                  <div class="col-md">
+                     <a href="attractions.html">The View</a>
+                  </div>
+                  <div class="col-md">
+                     <a href="festivities.html">The Magic</a>
+                  </div>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <main>
+         <div class="container">
+            <div class="row">
+               <div class="col-md">
+                  <h1>Make a Reservation</h1>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-8">
+                  <img src="images/home-reservation.jpg" alt="A man inquiring at the Magic Mystery Tours ticket booth." height="728" width="1140">
+               </div>
+               <div class="col-lg-4">
+                  <div id="staff-box">
+                     <h2>Package 1</h2>
+                     <h3>Single &#45; &#163;65.00</h3>
+
+                     <h2>Package 2</h2>
+                     <h3>Group of 2 &#45; &#163;130.00</h3>
+
+                     <h2>Package 3</h2>
+                     <h3>Group of 4 &#45; &#163;260.00 &#40;before group discount&#41;</h3>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col">
+                  <button id="package1">Package 1</button>
+                  <button id="package2">Package 2</button>
+                  <button id="package3">Package 3</button>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col">
+                  <h2>Cart</h2>
+                  <table id="reservation-cart">
+                     <thead>
+                        <tr>
+                           <th></th>
+                           <th>Item</th>
+                           <th>Price</th>
+                           <th>Vat 20&#37;</th>
+                        </tr>
+                     </thead>    
+                     <tbody>
+                        <tr>
+                           <td id="delete">---</td>
+                           <td id="item">Select a Package</td>
+                           <td id="price">&#163;0.00</td>
+                           <td id="tax">&#163;0.00</td>
+                        </tr>
+                     </tbody>
+                     <tfoot>
+                        <tr>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td id="discount">&#163;0.00</td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td></td>
+                           <td id="total" colspan="2"></td>
+                        </tr>
+                     </tfoot>
+                  </table>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col">
+                  <button id="place-order">Reserve Tickets</button>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-2">
+                  <a href="index.html">Home</a>
+               </div>
+               <div class="col-md-2">
+                  <a href="about.html">The Trip</a>
+               </div>
+               <div class="col-md-2">
+                  <a href="attractions.html">The View</a>
+               </div>
+               <div class="col-md-2">
+                  <a href="festivities.html">The Magic</a>
+               </div>
+               <div class="col-md-4">
+                  <a href="https://www.youtube.com/thebeatles">
+                     <i class="fa-brands fa-youtube-square"></i>
+                  </a>
+                  <a href="https://www.instagram.com/thebeatles/">
+                     <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://twitter.com/thebeatles">
+                     <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  <a href="https://www.thebeatles.com/">
+                     <i class="fa-solid fa-envelope"></i>
+                  </a>
+                  <a href="https://github.com/wellingp/3-magical-mystery-tours">
+                     <i class="fa-brands fa-github-square"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <p>Copyright &copy; 2022 Patti W.</p>
+      <script src="scripts/reservation.js"></script>
+   </body>
+</html>
