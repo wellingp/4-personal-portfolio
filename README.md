@@ -28,11 +28,10 @@ On GitHub: https://github.com/wellingp/4-personal-portfolio
 - [x] Change active navs.
 - [x] Save images for web.
 - [x] Add direct email link on Contact.
-- [ ] Add favicon.
+- [x] Add favicon.
 - [ ] Fix alignment issues with ULs (mobile).
 - [ ] Fix text issues with headers that are too big (mobile).
 - [ ] Make git repos public.
 - [ ] Look into domain name.
 - [ ] Add JS to remove form placeholders.
-- [ ] Make professional email (replace one in form and SNS button).
-- [ ] patti
+- [x] Make professional email (replace one in form and SNS button).

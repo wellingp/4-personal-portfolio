@@ -110,6 +110,7 @@ img, .main-em{
 img, img.stack-icon, header.border-bottom{
    height: auto;
 }
+
 img, img.stack-icon{
    margin: 0 auto;
 }
@@ -151,14 +152,19 @@ header a{
 
 .index-button{
    padding: 30% 25%;
-   font-size: 2em;
-   text-shadow: 2px 2px 5px black;
    opacity: 60%;
    background-size: cover;
 }
 
 .index-button:hover{
    opacity: 100%;
+}
+
+.index-button p{
+   margin: 0;
+   font-size: 2em;
+   font-weight: bold;
+   text-shadow: 2px 2px 5px black;
 }
 
 #about-button{
@@ -339,14 +345,14 @@ ul#nav-ul{
 }
 
 footer ul{
-   margin-top: 3%;
+   margin-top: 2%;
    padding-left: 0;
 }
 
 #footer-ul li{
-   padding-right:2%;
+   padding-right: 2%;
    font-weight: 300;
-   font-size: 0.9em;
+   font-size: 0.8em;
 }
 
 #footer-ul li:hover{
@@ -431,7 +437,7 @@ footer{
 }
 
 footer p{
-   font-size: 0.8em;
+   font-size: 0.6em;
 }
 
 /*FORM*/
@@ -445,6 +451,10 @@ form{
 
 input, textarea, body{
    font-family: 'Quicksand', sans-serif;
+}
+
+input#value{
+   display: none;
 }
 
 input, textarea{
