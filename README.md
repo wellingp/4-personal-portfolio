@@ -22,7 +22,7 @@ On GitHub: https://github.com/wellingp/4-personal-portfolio
 
 - [x] Make self-illustration (content).
 - [x] Take polaroid photos for the index (content).
-- [ ] Fill in page meta data.
+- [x] Fill in page meta data.
 - [x] Image dimensions.
 - [x] Image alts.
 - [x] Change active navs.
@@ -35,3 +35,4 @@ On GitHub: https://github.com/wellingp/4-personal-portfolio
 - [ ] Look into domain name.
 - [ ] Add JS to remove form placeholders.
 - [ ] Make professional email (replace one in form and SNS button).
+- [ ] patti
