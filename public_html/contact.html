@@ -60,26 +60,65 @@
                <div class="col-lg">
                   <h3>Message</h3>
                   <p>Call me! I promise I&#39;ll call you back.</p>
+				  
                   <form action="send" method="post" class="contact-form" id="contact-form" enctype = "multipart/form-data">
 
                      <!-- Input FULL NAME -->
                      <label for="name"></label>
-                     <input type="text" id="name" name="name" aria-placeholder="Full Name" placeholder="Place Name" value="" pattern=[A-Z\sa-z]{3,20} required><br />
+                     <input type="text" 
+                     id="name" 
+                     name="name" aria-placeholder="Full Name" 
+                     placeholder="Full Name" 
+                     value="" 
+                     pattern="^[A-Za-zÀ-ÿ ,.'-]+$" 
+                     minlength = "2"
+                     maxlength = "100"
+                     required><br />
 
                      <!-- Input REASON -->
                      <label for="subject"></label>
-                     <input type="text" id="subject" name="subject" aria-placeholder="Reason For Contact" placeholder="Reason For Contact" value="" pattern=[A-Z\sa-z]{3,20} required><br />
+                     <input type="text" 
+                     id="subject" 
+                     name="subject" 
+                     aria-placeholder="Reason For Contact" 
+                     placeholder="Reason For Contact" 
+                     value="" 
+                     pattern="^[A-Za-zÀ-ÿ ,.'-]+$" 
+                     minlength = "3" 
+                     maxlength = "50" 
+                     required><br />
 
                      <!-- Input EMAIL -->
                      <label for="email"></label>
-                     <input type="email" id="email" name="lname" aria-placeholder="Email" placeholder="Email" value="" required><br />
+                     <input type="email" 
+                     id="email" 
+                     name="lname" 
+                     aria-placeholder="Email" 
+                     placeholder="Email" 
+                     value="" 
+                     required><br />
 
                      <!-- Input MESSAGE -->
                      <label for="message"></label>
-                     <textarea name="message" aria-placeholder="Leave A Message" placeholder="Leave A Message" id="message" cols="30" rows="10" required></textarea><br />
+                     <textarea 
+                     name="message" 
+                     aria-placeholder="Leave A Message" 
+                     placeholder="Leave A Message" 
+                     id="message" 
+                     cols="30" 
+                     rows="10" 
+                     minlength = "10" 
+                     maxlength = "500" 
+                     required>
+                     </textarea><br />
 
                      <button type="submit" class="submit" value="Send Message" id="submit">Submit</button>
+					 
+					      <div>
+                        <h3 id = "errorbox"></h3>
+                     </div>
                   </form>
+		
                </div>
             </div>
          </div>
