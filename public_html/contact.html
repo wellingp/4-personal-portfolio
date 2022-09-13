@@ -67,7 +67,8 @@
                      value="" 
                      pattern="^[A-Za-zÀ-ÿ ,.'-]+$" 
                      minlength = "2"
-                     maxlength = "100"
+                     maxlength = "100" 
+                     title="Name must be: 2-100 characters, A-Z , . \' -" 
                      required><br />
 
                      <!-- Input REASON -->
@@ -80,6 +81,7 @@
                      pattern="^[A-Za-zÀ-ÿ ,.'-]+$" 
                      minlength = "3" 
                      maxlength = "50" 
+                     title="Subject must be: 3-50 characters, A-Z , . \' -" 
                      required><br />
 
                      <!-- Input EMAIL -->
@@ -89,6 +91,7 @@
                      name="lname" 
                      placeholder="Email" 
                      value="" 
+                     title="Please enter a valid email address."
                      required><br />
 
                      <!-- Input MESSAGE -->
@@ -101,6 +104,7 @@
                      rows="10" 
                      minlength = "10" 
                      maxlength = "500" 
+                     title="Message must be: 10-500 characters, A-Z , . \' -" 
                      required>
                      </textarea><br />
                      <button type="submit" class="submit" value="Send Message" id="submit">Submit</button>	 
