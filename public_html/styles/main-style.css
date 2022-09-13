@@ -301,13 +301,14 @@ i{
 }
 
 blockquote{
-   font-size: 1.4em;
+   color: rgba(255, 181, 195, 0.785);
+   font-size: 1.3em;
    font-style: italic;
    font-weight: 500;
    background-color: rgba(255, 255, 255, 0.1);
    border-radius: 10px;
    padding: 10%;
-   margin: 2%;
+   margin: 5%;
 }
 
 ul{
@@ -384,6 +385,10 @@ ul.inline li{
 
 ul.inline a{
    font-size: 2em;
+}
+
+.about-ul-dash{
+   padding-left: 0;
 }
 
 .about-ul-dash li{
