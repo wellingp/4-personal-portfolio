@@ -386,6 +386,11 @@ ul.inline a{
    font-size: 2em;
 }
 
+.about-ul-dash li{
+   list-style-type: '⬦ ';
+   font-size: 0.9em;
+}
+
 .list-style-dash li{
    list-style-type: '⬦ ';
    padding: 1%;
