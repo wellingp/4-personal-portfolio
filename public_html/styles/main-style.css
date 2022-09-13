@@ -149,7 +149,6 @@ header a{
 }
 
 /*BUTTONS ON THE INDEX*/
-
 .index-button{
    padding: 30% 25%;
    opacity: 60%;
@@ -451,7 +450,6 @@ footer p{
 }
 
 /*FORM*/
-
 form{
    margin: 5% auto;
    padding: 5%;
@@ -505,7 +503,6 @@ input#name, input#email, input#message, input#company, input#subject{
 }
 
 /*MEDIA QUERIES*/
-
 /*xsm*/
 @media (min-width: 200px) {
    

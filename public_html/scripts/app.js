@@ -7,21 +7,20 @@ let errorbox = document.getElementById('errorbox');
 
 //Custom Errors
 fullname.oninvalid = function(event) {
-    event.target.setCustomValidity('Name must be: 2-100 characters, A-Z , . \' -');
+	event.target.setCustomValidity('Name must be: 2-100 characters, A-Z , . \' -');
 }
 
 email.oninvalid = function(event) {
-    event.target.setCustomValidity('Subject must be: 3-50 characters, A-Z , . \' -');
+	event.target.setCustomValidity('Subject must be: 3-50 characters, A-Z , . \' -');
 }
 
 subject.oninvalid = function(event) {
-    event.target.setCustomValidity('Please enter a valid email address.');
+	event.target.setCustomValidity('Please enter a valid email address.');
 }
 
 message.oninvalid = function(event) {
-    event.target.setCustomValidity('Message must be: 10-500 characters, A-Z , . \' -');
+	event.target.setCustomValidity('Message must be: 10-500 characters, A-Z , . \' -');
 }
-
 
 contactForm.addEventListener('submit', (e)=>{
 	e.preventDefault();
