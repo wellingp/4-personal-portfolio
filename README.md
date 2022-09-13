@@ -33,5 +33,5 @@ On GitHub: https://github.com/wellingp/4-personal-portfolio
 - [ ] Fix text issues with headers that are too big (mobile).
 - [ ] Make git repos public.
 - [ ] Look into domain name.
-- [ ] Add JS to remove form placeholders.
+- [x] Add JS to remove form placeholders.
 - [x] Make professional email (replace one in form and SNS button).
