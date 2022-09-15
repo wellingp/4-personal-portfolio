@@ -57,51 +57,48 @@ var loginValidate = [
 //CREATE A POST ROUTE
 app.post('/', loginValidate, (req, res)=>{
 	
-  const errors = validationResult(req);
+  /* const errors = validationResult(req);
+
   if (!errors.isEmpty()) {
 	return res.status(422).json({ errors: errors.array() });
   }
-  else{
+  else{ */
 	  
 	  //MAIL CODE
 
 		const transporter = nodemailer.createTransport({
-			host: "siteground354.com", /*i think this might be working, need to check authentication*/
+			host: "siteground354.com",
 			port: 465,
-			secure: false, // upgrade later with STARTTLS
+			secure: true,
 			auth: {
 				user: process.env.EMAIL,
 				pass: process.env.PASS
 			}
 		})
-
-		/*const transporter = nodemailer.createTransport({
-			service: 'gmail',
-			auth: {
-				user: process.env.EMAIL,
-				pass: process.env.PASS
-			}
-		})*/
 		
 		const mailOptions = {
-			from: req.body.email,
+			from: process.env.EMAIL,
 			to: process.env.EMAIL,
-			subject: `Message from ${req.body.email}: ${req.body.subject}`,
-			text: req.body.message
+			subject: `Message from ${req.body.name}: ${req.body.subject}`,
+			text: `
+			Name: ${req.body.name}
+			Subject: ${req.body.subject} 
+			Email: ${req.body.email}
+			Message: ${req.body.message}`
 		}
 		
 		transporter.sendMail(mailOptions, (error, info)=>{
 			if(error){
-				console.log(error);
+				// console.log(error);
 				res.send('error');
 			}else{
-				console.log('Email sent: ' + info.response)
+				// console.log('Email sent: ' + info.response)
 				res.send('success')
 			}
 		})
 		
-		let message = req.body.message;
+		/* let message = req.body.message;
 		res.send(`message: ${message}`);
-	}
+	} */
 });
 

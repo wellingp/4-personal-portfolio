@@ -22,7 +22,7 @@ contactForm.addEventListener('submit', (e)=>{
 	xhr.open('POST', '/');
 	xhr.setRequestHeader('content-type', 'application/json');
 	xhr.onload = function(){
-		console.log(xhr.responseText); /* THIS?? */
+		// console.log(xhr.responseText);
 		if(xhr.responseText == 'success'){
 			errorbox.style.color = 'green';
 			errorbox.textContent = 'Message Sent!!';
