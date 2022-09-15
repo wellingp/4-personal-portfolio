@@ -22,7 +22,7 @@ contactForm.addEventListener('submit', (e)=>{
 	xhr.open('POST', '/');
 	xhr.setRequestHeader('content-type', 'application/json');
 	xhr.onload = function(){
-		console.log(xhr.responseText);
+		console.log(xhr.responseText); /* THIS?? */
 		if(xhr.responseText == 'success'){
 			errorbox.style.color = 'green';
 			errorbox.textContent = 'Message Sent!!';
@@ -32,7 +32,7 @@ contactForm.addEventListener('submit', (e)=>{
 			message.value = '';
 		}else{
 			errorbox.style.color = 'red';
-			errorbox.textContent = 'Please go back and fix indicated errors.';
+			errorbox.textContent = 'Something went wrong. Please go back and fix indicated errors.';
 		}
 	}
 	

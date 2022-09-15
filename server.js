@@ -66,12 +66,22 @@ app.post('/', loginValidate, (req, res)=>{
 	  //MAIL CODE
 
 		const transporter = nodemailer.createTransport({
-			service: 'gmail',
+			host: "siteground354.com", /*i think this might be working, need to check authentication*/
+			port: 465,
+			secure: false, // upgrade later with STARTTLS
 			auth: {
 				user: process.env.EMAIL,
 				pass: process.env.PASS
 			}
 		})
+
+		/*const transporter = nodemailer.createTransport({
+			service: 'gmail',
+			auth: {
+				user: process.env.EMAIL,
+				pass: process.env.PASS
+			}
+		})*/
 		
 		const mailOptions = {
 			from: req.body.email,
