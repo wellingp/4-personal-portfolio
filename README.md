@@ -16,8 +16,8 @@ Font Awesome, Google Web Fonts, images from Unsplash.com
 
 ### Links
 
-Online: https://pattidesignops.com/
-On GitHub: https://github.com/wellingp/4-personal-portfolio
+- Online: https://pattidesignops.com/
+- On GitHub: https://github.com/wellingp/4-personal-portfolio
 
 ### Project End Date: 09-2022
 
