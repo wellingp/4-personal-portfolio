@@ -7,16 +7,14 @@
 A digital portfolio of works in the style of 90s vaporwave.
 
 ### Tech
-Vanilla HTML, CSS, JavaScript, Node JS.
+Vanilla HTML, CSS, JavaScript.
 
 ### Links
 
-Online: https://pattiw1.sg-host.com/index.html
+Online: https://pattidesignops.com/
 On GitHub: https://github.com/wellingp/4-personal-portfolio
 
-### Project End Date:
-
-**Pending**
+### Project End Date: 09-2022
 
 ### Tasks
 
@@ -35,3 +33,6 @@ On GitHub: https://github.com/wellingp/4-personal-portfolio
 - [x] Look into domain name.
 - [x] Add JS to remove form placeholders.
 - [x] Make professional email (replace one in form and SNS button).
+
+- [ ] Cchange all the contact links to the new one.
+- [ ] remove node stuff from static host and vice versa.
