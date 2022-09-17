@@ -1,6 +1,9 @@
 # 4-personal-portfolio
 
-## Project Start Date: 02-08-2022
+## Project Details
+
+### Project Start Date
+02-08-2022
 
 ### Motivation
 
@@ -19,7 +22,8 @@ Font Awesome, Google Web Fonts, images from Unsplash.com
 - Online: https://pattidesignops.com/
 - On GitHub: https://github.com/wellingp/4-personal-portfolio
 
-### Project End Date: 09-2022
+### Project End Date
+XX-09-2022
 
 ### Tasks
 
