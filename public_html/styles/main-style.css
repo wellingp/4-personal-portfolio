@@ -215,6 +215,14 @@ header a{
    background-image: url('../images/projects-bob.png');
 }
 
+#spica-button{
+   background-image: url('../images/projects-spica.jpg');
+}
+
+#coming-soon-button{
+   background-image: url('../images/projects-coming-soon.jpg');
+}
+
 .project-padding{
    margin: 5%;
 }

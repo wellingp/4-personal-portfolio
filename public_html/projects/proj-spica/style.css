@@ -1,0 +1,166 @@
+*{
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+body{
+   font-size: 1em;
+   font-family: 'MS UI Gothic', sans-serif;
+   width: 100%;
+   margin: 0 auto;
+   display: flex;
+   align-items: stretch;
+   background-color: black;
+}
+
+.item{
+   padding: 2%;
+   width: 80%;
+   margin: 0 auto;
+}
+
+header{
+   background-color: black;
+   color: white;
+}
+
+nav a{
+   padding-left: 5%;
+   padding-right: 5%;
+}
+
+main.item{
+   background-color: white;
+   color: black;
+   padding-bottom: 5%;
+}
+
+footer{
+   color: white;
+   display: inline-block;
+   
+}
+
+a, p button, #icon{
+   margin-top: 5%;
+}
+
+form button{
+   margin-bottom: 3%;
+}
+
+h3{
+   padding-top: 5%;
+}
+
+textarea, input{
+   margin-top: 2%;
+   margin-bottom: 4%;
+}
+
+label#comment-box{
+   display: block;
+}
+
+img{
+   width: 80%;
+   opacity: 85%;
+   height: auto;
+   border-radius: 80%;
+}
+
+a{
+   text-decoration: none;
+}
+
+ul#account li{
+   list-style-type: none;
+   list-style-position: inside;
+   padding-right: 3%;
+   display: inline;
+}
+
+#home{
+   color: white;
+}
+
+#new-comments-box{
+   margin-top: 3%;
+}
+
+#icon{
+   width: 5%;
+}
+
+#read-more{
+   display: none;
+}
+
+.hidden{
+   display: none;
+}
+
+.visible{
+   display: block;
+}
+
+#new-comments-box{
+   display: none;
+}
+
+button{
+   background-color: black;
+   color: white;
+   border: solid 1px white;
+   border-radius: 10px;
+}
+
+button:hover{
+   background-color: rgb(75, 75, 75);
+   color: rgb(240, 240, 240);
+}
+
+.liked-button{
+   background-color: red;
+   color: black;
+   border: solid 1px red;
+}
+
+.liked-button:hover{
+   background-color: rgb(255, 102, 102);
+   color: black;
+}
+
+/*MEDIA QUERIES*/
+/*xsm*/
+@media (min-width: 200px) {
+   body{
+      flex-direction: column;
+      flex-wrap: wrap;
+   }
+}
+
+/*sm*/
+@media (min-width: 576px) {
+   body{
+      flex-direction: column;
+      flex-wrap: wrap;
+   }
+}
+
+/*md*/
+@media (min-width: 768px) {
+   body{
+      flex-direction: column;
+      flex-wrap: wrap;
+   }
+}
+
+/*xl*/
+@media (min-width: 992px) {
+   body{
+      flex-direction: row;
+      flex-wrap: nowrap;
+   }
+}
