@@ -358,19 +358,19 @@ footer ul{
    font-size: 0.8em;
 }
 
-#footer-ul a{
+#footer-ul a, footer a{
    color: rgb(161, 136, 151);
 }
 
-#footer-ul a:hover{
+#footer-ul a:hover, footer a:hover{
    color: rgb(212, 195, 205);
 }
 
-#footer-ul a:visited{
+#footer-ul a:visited, footer a:visited{
    color: rgb(118, 80, 101);
 }
 
-#footer-ul a:visited:hover{
+#footer-ul a:visited:hover, footer a:visited:hover{
    color: rgb(211, 197, 207);
 }
 
