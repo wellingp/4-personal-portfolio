@@ -254,17 +254,21 @@ footer a{
    margin-bottom: 2%;
 }
 
-main a, footer a{
+main a{
    color: rgb(195, 123, 123);
 }
 
-main a:hover, footer a:hover{
+a:hover, main a:hover{
    color: rgb(233, 198, 198);
 }
 
-main a:visited, footer a:visited{
+main a:visited{
    color: rgb(129, 89, 89);
    margin-bottom: 2%;
+}
+
+main a:visited:hover{
+   color: rgb(172, 150, 150);
 }
 
 i{
@@ -311,7 +315,6 @@ blockquote{
    color: rgba(255, 181, 195, 0.785);
    font-size: 1.3em;
    font-style: italic;
-   font-weight: 500;
    background-color: rgba(255, 255, 255, 0.1);
    border-radius: 10px;
    padding: 10%;
@@ -334,20 +337,6 @@ ul#nav-ul{
    padding-left: 0;
 }
 
-#nav-ul li{
-   display: inline;
-   font-size: 1.1em;
-   padding-left: 2%;
-}
-
-#nav-ul li:hover{
-   color: rgb(227, 227, 227);
-}
-
-#nav-ul li:visited{
-   color: rgb(114, 100, 117);
-}
-
 .active-nav{
    color: rgb(156, 207, 101);
 }
@@ -363,18 +352,20 @@ footer ul{
    font-size: 0.8em;
 }
 
-#footer-ul li:hover{
-   color: rgb(144, 144, 144);
+#footer-ul a{
+   color: rgb(161, 136, 151);
 }
 
-#hidden-footer-ul li{
-   padding-right:2%;
-   font-weight: 300;
-   font-size: 0.9em;
+#footer-ul a:hover{
+   color: rgb(212, 195, 205);
 }
 
-#hidden-footer-ul li:hover{
-   color: rgb(144, 144, 144);
+#footer-ul a:visited{
+   color: rgb(118, 80, 101);
+}
+
+#footer-ul a:visited:hover{
+   color: rgb(211, 197, 207);
 }
 
 ul.inline{
@@ -400,7 +391,7 @@ ul.inline a{
 
 .about-ul-dash li{
    list-style-type: '⬦ ';
-   font-size: 0.9em;
+   font-size: 1rem;
 }
 
 .list-style-dash li{
