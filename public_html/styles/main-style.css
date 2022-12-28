@@ -219,6 +219,10 @@ header a{
    background-image: url('../images/projects-spica.jpg');
 }
 
+#staff-dynamics-button{
+   background-image: url('../images/projects-staff-dynamics.jpg');
+}
+
 #coming-soon-button{
    background-image: url('../images/projects-coming-soon.jpg');
 }
