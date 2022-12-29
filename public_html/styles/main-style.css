@@ -284,6 +284,12 @@ i{
    color: rgb(156, 207, 101);
 }
 
+.fa-solid.fa-up-right-from-square{
+   color: rgb(152, 190, 137);
+   font-size: 0.8em;
+   margin-left: 0.5%;
+}
+
 .main-em{
    font-size: 2em;
    font-style: italic;
