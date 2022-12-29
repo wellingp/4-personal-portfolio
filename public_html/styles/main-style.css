@@ -384,6 +384,10 @@ footer ul{
    color: rgb(211, 197, 207);
 }
 
+div#footer-main.col-xl{
+   width: 50%;
+}
+
 ul.inline{
    padding-left: 0;
 }
