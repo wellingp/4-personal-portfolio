@@ -384,10 +384,6 @@ footer ul{
    color: rgb(211, 197, 207);
 }
 
-div#footer-main.col-xl{
-   width: 50%;
-}
-
 ul.inline{
    padding-left: 0;
 }
@@ -544,6 +540,15 @@ input#name, input#email, input#message, input#company, input#subject{
 
    #footer-ul li{
       display: block;
+   }
+
+   ul#footer-ul{
+      margin-top: 0.8%;
+   }
+
+   .conduct-resume-links{
+      margin-left: 2%;
+      margin-right: 2%;
    }
 
    body{
