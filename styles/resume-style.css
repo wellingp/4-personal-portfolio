@@ -49,6 +49,12 @@ h4{
    margin-top: 0;
    margin-bottom: 0;
    font-size: 1em;
+   display: inline;
+}
+
+.same-line{
+   display: inline;
+
 }
 
 .date-p{
@@ -72,6 +78,11 @@ a{
 
 a:hover{
    color: rgb(212, 212, 212);
+}
+
+b{
+   color: black;
+   font-weight: 400;
 }
 
 .container{
@@ -112,20 +123,8 @@ a:hover{
 }
 
 ul{
-   margin-top: 0;
+   margin-top: 1%;
    margin-bottom: 0;
-}
-
-.secondary-ul li{
-   list-style-type: disc;
-   margin-top: 0.09%;
-   margin-left: 2%;
-   font-size: 1.1em;
-   color: rgb(127, 127, 127);
-}
-
-li{
-   list-style-type: none;
 }
 
 .row-ul{
@@ -134,6 +133,7 @@ li{
 
 .row-ul li{
    list-style: none;
+   color: black;
 }
 
 .row-ul div{
@@ -158,6 +158,10 @@ div.inline{
    padding-bottom: 2%;
 }
 
+.bold{
+   font-weight: bold;
+}
+
 strong{
    color: rgb(29, 166, 148);
    font-weight: bold;
@@ -170,4 +174,18 @@ header p{
 
 header{
    margin-bottom: 2%;
+}
+
+.no-top{
+   padding-top: 0.3%!important;
+   margin-top: 0;
+}
+
+.no-bottom{
+   padding-bottom: 0.3%!important;
+   margin-bottom: 0;
+}
+
+.top-pad{
+   padding-top: 2%;
 }
