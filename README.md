@@ -23,3 +23,4 @@ Font Awesome, Google Web Fonts, images from Unsplash.com
 
 ### Project End Date
 Main build: 26-09-2022
+Update: 7-03-2025
