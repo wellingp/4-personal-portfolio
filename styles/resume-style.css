@@ -4,8 +4,8 @@
 
 body{
    font-size: 1.1rem;
-   font-family: 'Cabin', sans-serif;
-   font-weight: 300;
+   font-family: 'News Cycle', 'Arial Narrow', Helvetica, sans-serif;
+   font-weight: 200;
 }
 
 p, ul{
@@ -21,18 +21,17 @@ li{
 }
 
 h1{
-   font-size: 2.5em;
+   font-size: 2.3em;
 }
 
 h2{
-   font-size: 2em;
+   font-size: 1.5em;
 }
 
 h1, h2, h3{
-   font-family: 'Ribeye Marrow', cursive;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5{
    color: black;
 }
 
@@ -49,6 +48,15 @@ h4{
    margin-top: 0;
    margin-bottom: 0;
    font-size: 1em;
+   display: inline;
+}
+
+h5{
+   padding-top: 2%;
+   padding-bottom: 2%;
+   margin-top: 0;
+   margin-bottom: 0;
+   font-size: 0.9em;
    display: inline;
 }
 
@@ -72,8 +80,7 @@ h4{
 
 a{
    font-weight: bold;
-   color: rgb(178, 178, 178);
-   font-size: 0.9em;
+   color: rgb(44, 149, 130);
 }
 
 a:hover{
@@ -101,6 +108,7 @@ b{
    flex-flow: row nowrap;
    justify-content: space-between;
    align-items: center;
+   margin-top: 2%;
 }
 
 .row-side{
@@ -131,8 +139,12 @@ ul{
    margin-top: 2%;
 }
 
+li{
+   list-style-type: none;
+}
+
 .row-ul li{
-   list-style: none;
+   list-style-type: none;
    color: black;
 }
 
@@ -176,9 +188,17 @@ header{
    margin-bottom: 2%;
 }
 
+p{
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-top: 0;
+   padding-bottom: 0;
+}
+
 .no-top{
    padding-top: 0.3%!important;
    margin-top: 0;
+   font-size: 0.9em;
 }
 
 .no-bottom{
